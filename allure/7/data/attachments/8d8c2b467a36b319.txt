@@ -1,0 +1,24 @@
+
+################################################################################################################################################
+Starting Execution:	[55 out of 134] test cases in the current suite
+Test Method:		[testPackage01.Test_SelectedValue.multipleSelect]
+################################################################################################################################################
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-02-2021 09:59:01.0105 AM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-02-2021 09:59:01.0105 AM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-02-2021 09:59:01.0334 AM
+[ReportManager] Target URL: [https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/select$samples/Advanced_select_with_multiple_features?revision=1612304] @14-02-2021 09:59:01.0345 AM
+[ReportManager] Initial URL: [data:,] @14-02-2021 09:59:01.0386 AM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/select$samples/Advanced_select_with_multiple_features?revision=1612304]. @14-02-2021 09:59:01.0679 AM
+[ReportManager] Element Action [select] successfully performed. With the following test data [Dog]. @14-02-2021 09:59:01.0955 AM
+[ReportManager] Element Action [select] successfully performed. With the following test data [Cat]. @14-02-2021 09:59:02.0212 AM
+[ReportManager] Element Action [getSelectedText] successfully performed. With the following test data [DogCat]. @14-02-2021 09:59:02.0382 AM
+[ReportManager] DogCat @14-02-2021 09:59:02.0382 AM
+[ReportManager] Element Action [getSelectedText] successfully performed. With the following test data [DogCat]. @14-02-2021 09:59:02.0551 AM
+[ReportManager] Loaded Shared OpenCV @14-02-2021 09:59:02.0675 AM
+[ReportManager] AssertElementAttribute PASSED; Expected [Value Should be 'DogCat' for the 'selectedText' attribute, element locator 'By.tagName: select'] and Actual [DogCat]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @14-02-2021 09:59:02.0743 AM
+[ReportManager] Successfully created attachment [Screenshot - 1613296742675_multipleSelect_AssertElementAttribute_passed] @14-02-2021 09:59:02.0744 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - server] @14-02-2021 09:59:02.0781 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - performance] @14-02-2021 09:59:02.0790 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - driver] @14-02-2021 09:59:02.0885 AM
+[ReportManager] Browser Action [closeCurrentWindow] successfully performed. @14-02-2021 09:59:02.0944 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - closeCurrentWindow - Actual Value] @14-02-2021 09:59:02.0944 A
