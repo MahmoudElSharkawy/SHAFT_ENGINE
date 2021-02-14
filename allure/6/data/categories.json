@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertElementExists FAILED; Expected [Element Should Exist, locator 'By.id: hplogo'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+      "children" : [ {
+        "name" : "TC001 - Navigate to URL and Verify Google Logo is Displayed",
+        "uid" : "ead0b98e0c80f418",
+        "parentUid" : "036e902b215bde1a51b9f887f3d9fc4b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613266884822,
+          "stop" : 1613266917627,
+          "duration" : 32805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "assertElementExists_true_expectedToPass",
+        "uid" : "3e2bb2ff04bf414f",
+        "parentUid" : "036e902b215bde1a51b9f887f3d9fc4b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613267231079,
+          "stop" : 1613267261735,
+          "duration" : 30656
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "036e902b215bde1a51b9f887f3d9fc4b"
+    }, {
+      "name" : "Element Action [waitForElementToBePresent] failed. With the following test data [waited up to (5) seconds, for the element's state of presence to be (true). Element locator (By.id: hplogo)].",
+      "children" : [ {
+        "name" : "waitForElementToBePresent_true_expectedToPass",
+        "uid" : "9c0ecac78c3f61e5",
+        "parentUid" : "43fb532ef7636b0e702fc23cb5060832",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613267123193,
+          "stop" : 1613267129392,
+          "duration" : 6199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43fb532ef7636b0e702fc23cb5060832"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
