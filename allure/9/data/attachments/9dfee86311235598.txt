@@ -1,0 +1,12 @@
+
+################################################################################################################################################
+Starting Execution:	[76 out of 134] test cases in the current suite
+Test Method:		[unitTests.tests_browserActions.navigateBack]
+################################################################################################################################################
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @15-02-2021 06:02:29.0905 AM
+[ReportManager] Initial URL: [https://duckduckgo.com] @15-02-2021 06:02:29.0961 AM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @15-02-2021 06:02:30.0797 AM
+[ReportManager] Browser Action [navigateBack] successfully performed. With the following test data [https://duckduckgo.com/]. @15-02-2021 06:02:31.0185 AM
+[ReportManager] Confirming that navigating back was successful... @15-02-2021 06:02:31.0186 AM
+[ReportManager] Browser Action [getCurrentURL] successfully performed. With the following test data [https://duckduckgo.com/]. @15-02-2021 06:02:31.0218 AM
+[ReportManager] AssertBrowserAttribute PASSED; Expected [Value Should be 'https://duckduckgo.com' for the 'CurrentUrl' attribute] and Actual [https://duckduckgo.com/]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @15-02-2021 06:02:31.0219 A
