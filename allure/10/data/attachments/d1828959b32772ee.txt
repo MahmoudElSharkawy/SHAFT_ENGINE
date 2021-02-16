@@ -1,0 +1,23 @@
+
+################################################################################################################################################
+Starting Execution:	[63 out of 134] test cases in the current suite
+Test Method:		[testPackage01.Test_chainableElementActions.chainElementActions]
+################################################################################################################################################
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @16-02-2021 01:41:28.0576 AM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @16-02-2021 01:41:28.0577 AM
+[ReportManager] Successfully Opened [GoogleChrome]. @16-02-2021 01:41:28.0796 AM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @16-02-2021 01:41:28.0807 AM
+[ReportManager] Initial URL: [data:,] @16-02-2021 01:41:28.0860 AM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @16-02-2021 01:41:29.0626 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [chained type 1]. @16-02-2021 01:41:30.0254 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [chained type 2]. @16-02-2021 01:41:30.0851 AM
+[ReportManager] Element Action [typeAppend] successfully performed. With the following test data [345]. @16-02-2021 01:41:30.0989 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [chained type 2345]. @16-02-2021 01:41:31.0115 AM
+[ReportManager] Loaded Shared OpenCV @16-02-2021 01:41:31.0241 AM
+[ReportManager] AssertElementAttribute PASSED; Expected [Value Should be 'chained type 2345' for the 'text' attribute, element locator 'By.name: q'] and Actual [chained type 2345]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @16-02-2021 01:41:31.0312 AM
+[ReportManager] Successfully created attachment [Screenshot - 1613439691241_chainElementActions_AssertElementAttribute_passed] @16-02-2021 01:41:31.0313 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - server] @16-02-2021 01:41:31.0379 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - performance] @16-02-2021 01:41:31.0498 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - driver] @16-02-2021 01:41:31.0677 AM
+[ReportManager] Browser Action [closeCurrentWindow] successfully performed. @16-02-2021 01:41:31.0739 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - closeCurrentWindow - Actual Value] @16-02-2021 01:41:31.0741 A
