@@ -1,0 +1,342 @@
+{
+  "uid" : "8f3b971fe0047e83",
+  "name" : "f8",
+  "fullName" : "testPackage01.Test_NewValidationActions.f8",
+  "historyId" : "598adf7608ef05684bdfd3b5c00ad314",
+  "time" : {
+    "start" : 1613478832410,
+    "stop" : 1613478832761,
+    "duration" : 351
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openBrowser",
+    "time" : {
+      "start" : 1613478831570,
+      "stop" : 1613478832406,
+      "duration" : 836
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [144]: Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution.",
+      "time" : {
+        "start" : 1613478831571,
+        "stop" : 1613478831571,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "144"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Action [145]: Successfully Opened [GoogleChrome].",
+      "time" : {
+        "start" : 1613478831861,
+        "stop" : 1613478831861,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "145"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [GoogleChrome]."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Action [146]: Browser Action [navigateToURL] successfully performed. With the following test data [https://the-internet.herokuapp.com/].",
+      "time" : {
+        "start" : 1613478832405,
+        "stop" : 1613478832405,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "146"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [navigateToURL] successfully performed. With the following test data [https://the-internet.herokuapp.com/]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "43f0fa2e2d2919",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: openBrowser",
+      "source" : "43f0fa2e2d2919.txt",
+      "type" : "text/plain",
+      "size" : 744
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [147]: AssertElementExists PASSED; Expected [Element Should Exist, locator 'By.tagName: h1'] and Actual [Element Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1613478832759,
+        "stop" : 1613478832760,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a162494d73e5dd0",
+        "name" : "Attachment: Screenshot - 1613478832672_f8_AssertElementExists_passed",
+        "source" : "4a162494d73e5dd0.png",
+        "type" : "image/png",
+        "size" : 158938
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "147"
+      }, {
+        "name" : "logText",
+        "value" : "AssertElementExists PASSED; Expected [Element Should Exist, locator 'By.tagName: h1'] and Actual [Element Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1613478832672_f8_AssertElementExists_passed, java.io.ByteArrayInputStream@427a4d68]]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "300b06352fe2eccd",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: f8",
+      "source" : "300b06352fe2eccd.txt",
+      "type" : "text/plain",
+      "size" : 832
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1613478832765,
+      "stop" : 1613478832951,
+      "duration" : 186
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [148]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1613478832950,
+        "stop" : 1613478832951,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "148"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "cd254ebf7d82ba7e",
+      "name" : "Attachment: Selenium WebDriver Logs - server",
+      "source" : "cd254ebf7d82ba7e.txt",
+      "type" : "text/plain",
+      "size" : 1288
+    }, {
+      "uid" : "b0815ae1378d6f27",
+      "name" : "Attachment: Selenium WebDriver Logs - performance",
+      "source" : "b0815ae1378d6f27.txt",
+      "type" : "text/plain",
+      "size" : 59083
+    }, {
+      "uid" : "744c680d64f512a",
+      "name" : "Attachment: Selenium WebDriver Logs - browser",
+      "source" : "744c680d64f512a.txt",
+      "type" : "text/plain",
+      "size" : 757
+    }, {
+      "uid" : "fd721e00404565d4",
+      "name" : "Attachment: Selenium WebDriver Logs - driver",
+      "source" : "fd721e00404565d4.txt",
+      "type" : "text/plain",
+      "size" : 193676
+    }, {
+      "uid" : "86c98f3d210bddd8",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: closeBrowser",
+      "source" : "86c98f3d210bddd8.txt",
+      "type" : "text/plain",
+      "size" : 531
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1613479116943,
+      "stop" : 1613479117643,
+      "duration" : 700
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [518]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1613479116944,
+        "stop" : 1613479116944,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "518"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Action [519]: Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1613479116962,
+        "stop" : 1613479116963,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "191f79aad6534643",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210216-123836",
+        "source" : "191f79aad6534643.csv",
+        "type" : "text/csv",
+        "size" : 685
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "519"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210216-123836, java.io.ByteArrayInputStream@2448a6e9]]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "12398cced5be7523",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210216-123836",
+      "source" : "12398cced5be7523.txt",
+      "type" : "text/plain",
+      "size" : 418044
+    }, {
+      "uid" : "610a62bdb424d609",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "610a62bdb424d609.html",
+      "type" : "text/html",
+      "size" : 7194870
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_NewValidationActions"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_NewValidationActions"
+  }, {
+    "name" : "testMethod",
+    "value" : "f8"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT_Engine: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT_Engine: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_NewValidationActions"
+  }, {
+    "name" : "host",
+    "value" : "fv-az99-339"
+  }, {
+    "name" : "thread",
+    "value" : "3884@fv-az99-339.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8f3b971fe0047e83.json",
+  "parameterValues" : [ ]
+}

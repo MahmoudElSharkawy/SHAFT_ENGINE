@@ -1,0 +1,178 @@
+{
+  "uid" : "cfeacf308b272165",
+  "name" : "f35",
+  "fullName" : "testPackage01.Test_NewValidationActions.f35",
+  "historyId" : "8cb1167a6cb18c2dad58e1f2a2b58f07",
+  "time" : {
+    "start" : 1613478831502,
+    "stop" : 1613478831519,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [130]: AssertFileExists PASSED; Expected [File 'pom.xml' should exist, after up to '1' retries] and Actual [File exists]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1613478831515,
+        "stop" : 1613478831515,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "130"
+      }, {
+        "name" : "logText",
+        "value" : "AssertFileExists PASSED; Expected [File 'pom.xml' should exist, after up to '1' retries] and Actual [File exists]. Validation Type [POSITIVE]."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "eb6285e751ebc374",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: f35",
+      "source" : "eb6285e751ebc374.txt",
+      "type" : "text/plain",
+      "size" : 755
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1613479116943,
+      "stop" : 1613479117643,
+      "duration" : 700
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [518]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1613479116944,
+        "stop" : 1613479116944,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "518"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Action [519]: Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1613479116962,
+        "stop" : 1613479116963,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "191f79aad6534643",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210216-123836",
+        "source" : "191f79aad6534643.csv",
+        "type" : "text/csv",
+        "size" : 685
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "519"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210216-123836, java.io.ByteArrayInputStream@2448a6e9]]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "12398cced5be7523",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210216-123836",
+      "source" : "12398cced5be7523.txt",
+      "type" : "text/plain",
+      "size" : 418044
+    }, {
+      "uid" : "610a62bdb424d609",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "610a62bdb424d609.html",
+      "type" : "text/html",
+      "size" : 7194870
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_NewValidationActions"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_NewValidationActions"
+  }, {
+    "name" : "testMethod",
+    "value" : "f35"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT_Engine: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT_Engine: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_NewValidationActions"
+  }, {
+    "name" : "host",
+    "value" : "fv-az99-339"
+  }, {
+    "name" : "thread",
+    "value" : "3884@fv-az99-339.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfeacf308b272165.json",
+  "parameterValues" : [ ]
+}
