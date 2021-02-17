@@ -1,0 +1,178 @@
+{
+  "uid" : "3238a5dab1fd8d25",
+  "name" : "assertFileExists_true_expectedToPass",
+  "fullName" : "unitTests.tests_validations_assertions.assertFileExists_true_expectedToPass",
+  "historyId" : "f4e42247564f9e406ac4c030f5657555",
+  "time" : {
+    "start" : 1613526336577,
+    "stop" : 1613526336579,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [508]: AssertFileExists PASSED; Expected [File 'src/main/java/com/shaft/gui/element/ElementActions.java' should exist, after up to '1' retries] and Actual [File exists]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1613526336578,
+        "stop" : 1613526336578,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "508"
+      }, {
+        "name" : "logText",
+        "value" : "AssertFileExists PASSED; Expected [File 'src/main/java/com/shaft/gui/element/ElementActions.java' should exist, after up to '1' retries] and Actual [File exists]. Validation Type [POSITIVE]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "501603822529ed82",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: assertFileExists_true_expectedToPass",
+      "source" : "501603822529ed82.txt",
+      "type" : "text/plain",
+      "size" : 884
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1613526339571,
+      "stop" : 1613526340129,
+      "duration" : 558
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [518]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1613526339571,
+        "stop" : 1613526339572,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "518"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [519]: Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1613526339580,
+        "stop" : 1613526339581,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b3e84b2414c24a",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210217-014539",
+        "source" : "b3e84b2414c24a.csv",
+        "type" : "text/csv",
+        "size" : 685
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "519"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210217-014539, java.io.ByteArrayInputStream@686a7b9c]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a6d190a245c7a7c",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210217-014539",
+      "source" : "a6d190a245c7a7c.txt",
+      "type" : "text/plain",
+      "size" : 418047
+    }, {
+      "uid" : "1aed9488b4c3e267",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "1aed9488b4c3e267.html",
+      "type" : "text/html",
+      "size" : 7146380
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "unitTests.tests_validations_assertions"
+  }, {
+    "name" : "testClass",
+    "value" : "unitTests.tests_validations_assertions"
+  }, {
+    "name" : "testMethod",
+    "value" : "assertFileExists_true_expectedToPass"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT_Engine: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT_Engine: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "unitTests.tests_validations_assertions"
+  }, {
+    "name" : "host",
+    "value" : "fv-az59-786"
+  }, {
+    "name" : "thread",
+    "value" : "3985@fv-az59-786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3238a5dab1fd8d25.json",
+  "parameterValues" : [ ]
+}
