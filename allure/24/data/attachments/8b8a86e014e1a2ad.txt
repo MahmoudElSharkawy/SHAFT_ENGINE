@@ -1,0 +1,116 @@
+
+################################################################################################################################################
+Starting Execution:	[135 out of 136] test cases in the current suite
+Test Method:		[unitTests.tests_restActions.getPostsAndAssertBodyForSpecificTitle]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @26-02-2021 01:49:33.0108 AM
+[ReportManager] Evaluating the actual response status code against the expected one...... @26-02-2021 01:49:33.0108 AM
+[ReportManager] AssertEquals PASSED; Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @26-02-2021 01:49:33.0108 AM
+[ReportManager] API Action [performRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://jsonplaceholder.typicode.com/posts" | Content Type: "*/*" | Response Time: "679ms"]. @26-02-2021 01:49:33.0259 AM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @26-02-2021 01:49:33.0260 AM
+[ReportManager] API Action [getResponseJSONValueAsList] successfully performed. @26-02-2021 01:49:33.0278 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0292 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0303 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [body]. @26-02-2021 01:49:33.0313 AM
+[ReportManager] AssertEquals PASSED; Expected [qui neque nisi nulla] and Actual [est rerum tempore vitae
+sequi sint nihil reprehenderit dolor beatae ea dolores neque
+fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis
+qui aperiam non debitis possimus qui neque nisi nulla]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @26-02-2021 01:49:33.0313 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0322 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0332 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0341 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0365 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0376 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0395 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0413 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0451 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0460 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0477 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0500 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0512 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0526 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0541 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0552 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0564 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0578 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0588 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0602 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0613 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0629 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0643 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0653 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0667 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0675 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0684 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0701 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0709 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0718 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0727 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0735 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0751 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0759 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0769 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0777 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0787 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0798 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0814 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0822 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0831 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0840 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0848 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0860 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0869 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0879 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0889 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0904 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0915 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0927 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0936 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0944 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0956 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0965 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0984 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:33.0996 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0004 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0016 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0025 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0070 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0080 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0089 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0103 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0110 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0120 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0129 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0136 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0143 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0153 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0159 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0166 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0174 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0188 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0196 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0204 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0212 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0219 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0232 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0241 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0249 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0258 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0282 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0293 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0301 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0307 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0314 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0323 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0330 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0344 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0352 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0359 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0370 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0382 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0388 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0396 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0404 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0415 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0425 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [title]. @26-02-2021 01:49:34.0437 A
