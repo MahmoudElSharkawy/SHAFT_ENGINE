@@ -1,0 +1,16 @@
+
+################################################################################################################################################
+Starting Execution:	[54 out of 136] test cases in the current suite
+Test Method:		[testPackage01.Test_JsonCompareWithSpecialCharacters.specialCharacters_assertion]
+################################################################################################################################################
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/TestJsonFiles/specialCharacters.json"]. @04-03-2021 01:48:09.0542 AM
+[ReportManager] File Action [readFromFile] successfully performed. With the following test data [File Path: "/home/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/test/resources/TestJsonFiles/specialCharacters.json"]. @04-03-2021 01:48:09.0542 AM
+[ReportManager] Successfully created attachment [File Action Actual Result - Command Log] @04-03-2021 01:48:09.0542 AM
+[ReportManager] trying out the log message... @04-03-2021 01:48:09.0543 AM
+[ReportManager] Comparing the provided API response with the file at this path "src/test/resources/TestJsonFiles/specialCharacters.json", comparison type "CONTAINS" @04-03-2021 01:48:09.0543 AM
+[ReportManager] API Action [compareJSON] successfully performed. With the following test data [src/test/resources/TestJsonFiles/specialCharacters.json]. @04-03-2021 01:48:09.0566 AM
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/TestJsonFiles/specialCharacters.json"]. @04-03-2021 01:48:09.0566 AM
+[ReportManager] File Action [readFromFile] successfully performed. With the following test data [File Path: "/home/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/test/resources/TestJsonFiles/specialCharacters.json"]. @04-03-2021 01:48:09.0567 AM
+[ReportManager] AssertJSONFileContent PASSED; Expected [Response data should match the JSON File in this path 'src/test/resources/TestJsonFiles/specialCharacters.json'] and Actual [TRUE]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @04-03-2021 01:48:09.0571 AM
+[ReportManager] Successfully created attachment [Validation Test Data - Expected JSON Value] @04-03-2021 01:48:09.0572 AM
+[ReportManager] Successfully created attachment [Validation Test Data - Actual JSON Value] @04-03-2021 01:48:09.0573 A
