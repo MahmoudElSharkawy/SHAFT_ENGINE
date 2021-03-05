@@ -1,0 +1,230 @@
+{
+  "uid" : "d0c8499948528e26",
+  "name" : "getCellData_rowName_expectedToPass",
+  "fullName" : "unitTests.tests_io_excelFileManager.getCellData_rowName_expectedToPass",
+  "historyId" : "a668d1f7bbf0bd93bfbcd970b468fe16",
+  "time" : {
+    "start" : 1614909027664,
+    "stop" : 1614909027666,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1614909027607,
+      "stop" : 1614909027661,
+      "duration" : 54
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [248]: Successfully loaded the following test data file [src/test/resources/TestDataFiles/testSuite01/TestData.xlsx].",
+      "time" : {
+        "start" : 1614909027648,
+        "stop" : 1614909027661,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cdb5382ebcac1dac",
+        "name" : "Attachment: Test Data - Excel",
+        "source" : "cdb5382ebcac1dac.xlsx",
+        "type" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "size" : 12483
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "248"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully loaded the following test data file [src/test/resources/TestDataFiles/testSuite01/TestData.xlsx]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Test Data, Excel, java.io.FileInputStream@516a97eb]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a50d057bfafe5384",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: beforeClass",
+      "source" : "a50d057bfafe5384.txt",
+      "type" : "text/plain",
+      "size" : 251
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [249]: testRowData.",
+      "time" : {
+        "start" : 1614909027665,
+        "stop" : 1614909027665,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "249"
+      }, {
+        "name" : "logText",
+        "value" : "testRowData."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f70df0025c554d5e",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: getCellData_rowName_expectedToPass",
+      "source" : "f70df0025c554d5e.txt",
+      "type" : "text/plain",
+      "size" : 502
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1614909166397,
+      "stop" : 1614909166893,
+      "duration" : 496
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [522]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1614909166397,
+        "stop" : 1614909166397,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "522"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [523]: Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1614909166405,
+        "stop" : 1614909166405,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d3c3a79110cbcfc7",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210305-015246",
+        "source" : "d3c3a79110cbcfc7.csv",
+        "type" : "text/csv",
+        "size" : 228
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "523"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210305-015246, java.io.ByteArrayInputStream@75b14fe4]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5e8e67303a1aa420",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210305-015246",
+      "source" : "5e8e67303a1aa420.txt",
+      "type" : "text/plain",
+      "size" : 382732
+    }, {
+      "uid" : "2decf86b29da8d07",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "2decf86b29da8d07.html",
+      "type" : "text/html",
+      "size" : 7213029
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "unitTests.tests_io_excelFileManager"
+  }, {
+    "name" : "testClass",
+    "value" : "unitTests.tests_io_excelFileManager"
+  }, {
+    "name" : "testMethod",
+    "value" : "getCellData_rowName_expectedToPass"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT_Engine: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT_Engine: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "unitTests.tests_io_excelFileManager"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-350"
+  }, {
+    "name" : "thread",
+    "value" : "3863@fv-az29-350.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0c8499948528e26.json",
+  "parameterValues" : [ ]
+}
