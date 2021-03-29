@@ -1,0 +1,208 @@
+{
+  "uid" : "612fbfedf6829950",
+  "name" : "f",
+  "fullName" : "testPackage01.Test_testData.f",
+  "historyId" : "fa265a8627bd99827e3fc01138cc6263",
+  "time" : {
+    "start" : 1616983903254,
+    "stop" : 1616983903316,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [215]: Successfully loaded the following test data file [src/test/resources/TestDataFiles/testSuite01/TestData.xlsx].",
+      "time" : {
+        "start" : 1616983903314,
+        "stop" : 1616983903315,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c2a9129bbeeec8c",
+        "name" : "Attachment: Test Data - Excel",
+        "source" : "3c2a9129bbeeec8c.xlsx",
+        "type" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "size" : 12483
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "215"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully loaded the following test data file [src/test/resources/TestDataFiles/testSuite01/TestData.xlsx]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Test Data, Excel, java.io.FileInputStream@277be936]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [216]: Last Column Number is: [3]. Zero-based.",
+      "time" : {
+        "start" : 1616983903315,
+        "stop" : 1616983903315,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "216"
+      }, {
+        "name" : "logText",
+        "value" : "Last Column Number is: [3]. Zero-based."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "59a61f07bc3861e1",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: f",
+      "source" : "59a61f07bc3861e1.txt",
+      "type" : "text/plain",
+      "size" : 741
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1616984060762,
+      "stop" : 1616984061286,
+      "duration" : 524
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [522]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1616984060763,
+        "stop" : 1616984060763,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "522"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [523]: Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1616984060776,
+        "stop" : 1616984060776,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9baf83d90616fae0",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210329-021420",
+        "source" : "9baf83d90616fae0.csv",
+        "type" : "text/csv",
+        "size" : 228
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "523"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210329-021420, java.io.ByteArrayInputStream@4e1cff9c]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6907d5eaa8c2da6e",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210329-021420",
+      "source" : "6907d5eaa8c2da6e.txt",
+      "type" : "text/plain",
+      "size" : 382718
+    }, {
+      "uid" : "bf3aaa9bcf1da82c",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "bf3aaa9bcf1da82c.html",
+      "type" : "text/html",
+      "size" : 7221628
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_testData"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_testData"
+  }, {
+    "name" : "testMethod",
+    "value" : "f"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT_Engine: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT_Engine: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_testData"
+  }, {
+    "name" : "host",
+    "value" : "fv-az99-33"
+  }, {
+    "name" : "thread",
+    "value" : "4022@fv-az99-33.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "612fbfedf6829950.json",
+  "parameterValues" : [ ]
+}
