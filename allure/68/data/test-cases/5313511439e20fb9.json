@@ -1,0 +1,182 @@
+{
+  "uid" : "5313511439e20fb9",
+  "name" : "skip",
+  "fullName" : "testPackage01.Test_SkipDueToIssue.skip",
+  "historyId" : "780378a4706344e151b2791aff941970",
+  "time" : {
+    "start" : 1617070001950,
+    "stop" : 1617070001953,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [60]: This should be skipped.",
+      "time" : {
+        "start" : 1617070001951,
+        "stop" : 1617070001952,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "60"
+      }, {
+        "name" : "logText",
+        "value" : "This should be skipped."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ce101152eab7d24f",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: skip",
+      "source" : "ce101152eab7d24f.txt",
+      "type" : "text/plain",
+      "size" : 481
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1617070344215,
+      "stop" : 1617070344866,
+      "duration" : 651
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [522]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1617070344215,
+        "stop" : 1617070344215,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "522"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [523]: Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1617070344236,
+        "stop" : 1617070344236,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cac2f2a0707e93ed",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210330-021224",
+        "source" : "cac2f2a0707e93ed.csv",
+        "type" : "text/csv",
+        "size" : 228
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "523"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210330-021224, java.io.ByteArrayInputStream@7766e085]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d2498dba92e21582",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210330-021224",
+      "source" : "d2498dba92e21582.txt",
+      "type" : "text/plain",
+      "size" : 382732
+    }, {
+      "uid" : "646bc415b34bd273",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "646bc415b34bd273.html",
+      "type" : "text/html",
+      "size" : 7257320
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_SkipDueToIssue"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_SkipDueToIssue"
+  }, {
+    "name" : "testMethod",
+    "value" : "skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT_Engine: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT_Engine: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_SkipDueToIssue"
+  }, {
+    "name" : "host",
+    "value" : "fv-az95-378"
+  }, {
+    "name" : "thread",
+    "value" : "4000@fv-az95-378.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "INC1",
+    "url" : "",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5313511439e20fb9.json",
+  "parameterValues" : [ ]
+}
