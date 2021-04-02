@@ -1,0 +1,208 @@
+{
+  "uid" : "3317b04aee90e659",
+  "name" : "readStringFromJson",
+  "fullName" : "testPackage01.Test_JSONFileManager.readStringFromJson",
+  "historyId" : "f5f5d884f40a700315cef26011f085c6",
+  "time" : {
+    "start" : 1617330186060,
+    "stop" : 1617330186076,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [514]: Successfully loaded the following test data file [src/test/resources/TestDataFiles/simpleJSON.json].",
+      "time" : {
+        "start" : 1617330186061,
+        "stop" : 1617330186062,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b014c330bf654e1",
+        "name" : "Attachment: Test Data - JSON",
+        "source" : "b014c330bf654e1.json",
+        "type" : "text/json",
+        "size" : 59
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "514"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully loaded the following test data file [src/test/resources/TestDataFiles/simpleJSON.json]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Test Data, JSON, java.io.FileInputStream@3b479c9d]]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Action [515]: AssertEquals PASSED; Expected [Mohab Mohie] and Actual [Mohab Mohie]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1617330186073,
+        "stop" : 1617330186073,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "515"
+      }, {
+        "name" : "logText",
+        "value" : "AssertEquals PASSED; Expected [Mohab Mohie] and Actual [Mohab Mohie]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8e7b18a5fd660b00",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: readStringFromJson",
+      "source" : "8e7b18a5fd660b00.json",
+      "type" : "text/json",
+      "size" : 839
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1617330190370,
+      "stop" : 1617330190975,
+      "duration" : 605
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [522]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1617330190371,
+        "stop" : 1617330190371,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "522"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Action [523]: Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1617330190393,
+        "stop" : 1617330190394,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a01a1eb474436814",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210402-022310",
+        "source" : "a01a1eb474436814.csv",
+        "type" : "text/csv",
+        "size" : 228
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "523"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210402-022310, java.io.ByteArrayInputStream@618f1668]]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "57391b9a04101b8e",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210402-022310",
+      "source" : "57391b9a04101b8e.txt",
+      "type" : "text/plain",
+      "size" : 382735
+    }, {
+      "uid" : "6f1672e095bd7de2",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "6f1672e095bd7de2.html",
+      "type" : "text/html",
+      "size" : 7232534
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_JSONFileManager"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_JSONFileManager"
+  }, {
+    "name" : "testMethod",
+    "value" : "readStringFromJson"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT_Engine: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT_Engine: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_JSONFileManager"
+  }, {
+    "name" : "host",
+    "value" : "fv-az59-485"
+  }, {
+    "name" : "thread",
+    "value" : "4073@fv-az59-485.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3317b04aee90e659.json",
+  "parameterValues" : [ ]
+}
