@@ -1,0 +1,199 @@
+{
+  "uid" : "67da2e05bd1f4c82",
+  "name" : "forceFail2",
+  "fullName" : "testPackage01.Test_NewValidationActions.forceFail2",
+  "historyId" : "765b6432bbe2282046ccbfbbfe9b1117",
+  "time" : {
+    "start" : 1617848342629,
+    "stop" : 1617848342630,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [433]: Custom Message...",
+      "time" : {
+        "start" : 1617848342629,
+        "stop" : 1617848342629,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "433"
+      }, {
+        "name" : "logText",
+        "value" : "Custom Message..."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [434]: AssertFail FAILED; Expected [null] and Actual [null].",
+      "time" : {
+        "start" : 1617848342629,
+        "stop" : 1617848342630,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "434"
+      }, {
+        "name" : "logText",
+        "value" : "AssertFail FAILED; Expected [null] and Actual [null]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d0a9be985f63168b",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: forceFail2",
+      "source" : "d0a9be985f63168b.txt",
+      "type" : "text/plain",
+      "size" : 587
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1617848369215,
+      "stop" : 1617848369756,
+      "duration" : 541
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [522]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1617848369216,
+        "stop" : 1617848369216,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "522"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [523]: Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1617848369237,
+        "stop" : 1617848369237,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b09867ca86c097f",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210408-021929",
+        "source" : "b09867ca86c097f.csv",
+        "type" : "text/csv",
+        "size" : 228
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "523"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210408-021929, java.io.ByteArrayInputStream@2ef731d4]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "379b4ca348d13ec8",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210408-021929",
+      "source" : "379b4ca348d13ec8.txt",
+      "type" : "text/plain",
+      "size" : 382734
+    }, {
+      "uid" : "b16484cfe429b34c",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "b16484cfe429b34c.html",
+      "type" : "text/html",
+      "size" : 7214381
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_NewValidationActions"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_NewValidationActions"
+  }, {
+    "name" : "testMethod",
+    "value" : "forceFail2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT_Engine: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT_Engine: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_NewValidationActions"
+  }, {
+    "name" : "host",
+    "value" : "fv-az63-515"
+  }, {
+    "name" : "thread",
+    "value" : "4089@fv-az63-515.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67da2e05bd1f4c82.json",
+  "parameterValues" : [ ]
+}
