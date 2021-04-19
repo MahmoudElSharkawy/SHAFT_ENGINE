@@ -1,0 +1,19 @@
+
+################################################################################################################################################
+Starting Execution:	[69 out of 136] test cases in the current suite
+Test Method:		[testPackage01.Test_uploadFile.uploadFile_invisibleUploadInput]
+################################################################################################################################################
+[ReportManager] Target URL: [https://fineuploader.com/demos.html#gallery-view] @19-04-2021 02:12:18.0963 AM
+[ReportManager] Initial URL: [data:,] @19-04-2021 02:12:19.0012 AM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://fineuploader.com/demos.html#gallery-view]. @19-04-2021 02:12:20.0727 AM
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative File Path: "src/main/resources/images/shaft.png"]. @19-04-2021 02:12:20.0727 AM
+[ReportManager] Successfully created attachment [File Action Actual Result - Command Log] @19-04-2021 02:12:20.0728 AM
+[ReportManager] Element Action [typeFileLocationForUpload] successfully performed. With the following test data [/home/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/main/resources/images/shaft.png]. @19-04-2021 02:12:20.0926 AM
+[ReportManager] Attempting to getAttribute [src] from elementLocator [By.xpath: //div[@id='fine-uploader-gallery']//div[@class='qq-thumbnail-wrapper']/img]. @19-04-2021 02:12:20.0927 AM
+[ReportManager] Element Action [getAttribute] successfully performed. @19-04-2021 02:12:21.0101 AM
+[ReportManager] Successfully created attachment [Element Action Test Data - getAttribute - Actual Value] @19-04-2021 02:12:21.0102 AM
+[ReportManager] Loaded Shared OpenCV @19-04-2021 02:12:21.0246 AM
+[ReportManager] AssertElementAttribute PASSED; Expected and Actual values are attached. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @19-04-2021 02:12:21.0327 AM
+[ReportManager] Successfully created attachment [Validation Test Data - Expected Value] @19-04-2021 02:12:21.0328 AM
+[ReportManager] Successfully created attachment [Validation Test Data - Actual Value] @19-04-2021 02:12:21.0328 AM
+[ReportManager] Successfully created attachment [Screenshot - 1618798341246_uploadFile_invisibleUploadInput_AssertElementAttribute_passed] @19-04-2021 02:12:21.0329 A
