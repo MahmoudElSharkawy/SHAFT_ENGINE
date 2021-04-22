@@ -1,0 +1,392 @@
+{
+  "uid" : "43fa8c458a36612c",
+  "name" : "shadowdom",
+  "fullName" : "testPackage01.Test_ShadowDOM.shadowdom",
+  "historyId" : "bb7188203f90a1a2fad67230270ae7d6",
+  "time" : {
+    "start" : 1619101707614,
+    "stop" : 1619101708978,
+    "duration" : 1364
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1619101707287,
+      "stop" : 1619101707605,
+      "duration" : 318
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [111]: Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution.",
+      "time" : {
+        "start" : 1619101707287,
+        "stop" : 1619101707287,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "111"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [112]: Successfully Opened [GoogleChrome].",
+      "time" : {
+        "start" : 1619101707583,
+        "stop" : 1619101707584,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "112"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [GoogleChrome]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2cb9599c1ba3fd4a",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: beforeMethod",
+      "source" : "2cb9599c1ba3fd4a.txt",
+      "type" : "text/plain",
+      "size" : 414
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [113]: Browser Action [navigateToURL] successfully performed. With the following test data [https://mdn.github.io/web-components-examples/popup-info-box-web-component/].",
+      "time" : {
+        "start" : 1619101707909,
+        "stop" : 1619101707909,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "113"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [navigateToURL] successfully performed. With the following test data [https://mdn.github.io/web-components-examples/popup-info-box-web-component/]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [114]: Element Action [type] successfully performed. With the following test data [Typing into SHADOW DOM...].",
+      "time" : {
+        "start" : 1619101708605,
+        "stop" : 1619101708605,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "114"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [type] successfully performed. With the following test data [Typing into SHADOW DOM...]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [115]: AssertElementAttribute PASSED; Expected [Value Should be 'Typing into SHADOW DOM...' for the 'Text' attribute, element locator 'By.id: cvc'] and Actual [Typing into SHADOW DOM...]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1619101708976,
+        "stop" : 1619101708977,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d40d9b905a6176",
+        "name" : "Attachment: Screenshot - 1619101708899_shadowdom_AssertElementAttribute_passed",
+        "source" : "9d40d9b905a6176.png",
+        "type" : "image/png",
+        "size" : 33952
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "115"
+      }, {
+        "name" : "logText",
+        "value" : "AssertElementAttribute PASSED; Expected [Value Should be 'Typing into SHADOW DOM...' for the 'Text' attribute, element locator 'By.id: cvc'] and Actual [Typing into SHADOW DOM...]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1619101708899_shadowdom_AssertElementAttribute_passed, java.io.ByteArrayInputStream@1b8117f4]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4b2111c4053cc99",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: shadowdom",
+      "source" : "4b2111c4053cc99.txt",
+      "type" : "text/plain",
+      "size" : 1615
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1619101708978,
+      "stop" : 1619101709205,
+      "duration" : 227
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [116]: Browser Action [closeCurrentWindow] successfully performed.",
+      "time" : {
+        "start" : 1619101709204,
+        "stop" : 1619101709205,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b7f55a8a83d5ce6",
+        "name" : "Attachment: Browser Action Test Data - closeCurrentWindow - Actual Value",
+        "source" : "9b7f55a8a83d5ce6.html",
+        "type" : "text/html",
+        "size" : 537
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "116"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [closeCurrentWindow] successfully performed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Browser Action Test Data - closeCurrentWindow, Actual Value, <html><head>\n    <meta charset=\"utf-8\">\n    <title>Pop-up info box — web components</title>\n    <script src=\"main.js\" defer=\"\"></script>\n  </head>\n  <body>\n    <h1>Pop-up info widget - web components</h1>\n\n    <form>\n      <div>\n        <label for=\"cvc\">Enter your CVC <popup-info img=\"img/alt.png\" data-text=\"Your card validation code (CVC) is an extra security feature — it is the last 3 or 4 numbers on the back of your card.\"></popup-info></label>\n        <input type=\"text\" id=\"cvc\">\n      </div>\n    </form>\n\n  \n\n</body></html>]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e21aa9be312c6b36",
+      "name" : "Attachment: Selenium WebDriver Logs - server",
+      "source" : "e21aa9be312c6b36.txt",
+      "type" : "text/plain",
+      "size" : 1288
+    }, {
+      "uid" : "36931b1065d112ee",
+      "name" : "Attachment: Selenium WebDriver Logs - performance",
+      "source" : "36931b1065d112ee.txt",
+      "type" : "text/plain",
+      "size" : 18563
+    }, {
+      "uid" : "f4aaa6187c8c3561",
+      "name" : "Attachment: Selenium WebDriver Logs - browser",
+      "source" : "f4aaa6187c8c3561.txt",
+      "type" : "text/plain",
+      "size" : 257
+    }, {
+      "uid" : "fa91146d01f3416d",
+      "name" : "Attachment: Selenium WebDriver Logs - driver",
+      "source" : "fa91146d01f3416d.txt",
+      "type" : "text/plain",
+      "size" : 234584
+    }, {
+      "uid" : "4c10331d930b869e",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: afterMethod",
+      "source" : "4c10331d930b869e.txt",
+      "type" : "text/plain",
+      "size" : 697
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1619102042834,
+      "stop" : 1619102043650,
+      "duration" : 816
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [514]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1619102042834,
+        "stop" : 1619102042834,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "514"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [515]: Issue Summary: Total Issues = 6, New issues for Failed Tests = 4, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1619102042851,
+        "stop" : 1619102042851,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d3cea02cb9e75c69",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210422-143402",
+        "source" : "d3cea02cb9e75c69.csv",
+        "type" : "text/csv",
+        "size" : 832
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "515"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 6, New issues for Failed Tests = 4, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210422-143402, java.io.ByteArrayInputStream@168a5892]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d3d482abb11fc551",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210422-143402",
+      "source" : "d3d482abb11fc551.txt",
+      "type" : "text/plain",
+      "size" : 406675
+    }, {
+      "uid" : "ce8beb97e375c1c6",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "ce8beb97e375c1c6.html",
+      "type" : "text/html",
+      "size" : 8716367
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_ShadowDOM"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_ShadowDOM"
+  }, {
+    "name" : "testMethod",
+    "value" : "shadowdom"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT_Engine: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT_Engine: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_ShadowDOM"
+  }, {
+    "name" : "host",
+    "value" : "fv-az92-4"
+  }, {
+    "name" : "thread",
+    "value" : "3835@fv-az92-4.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6175bf5b7f5243a",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/96//#testresult/6175bf5b7f5243a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618884681226,
+          "stop" : 1618884682520,
+          "duration" : 1294
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "43fa8c458a36612c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertElementExists FAILED; Expected [Element Should Exist, locator 'By.xpath: //img[@id='hplogo' or @alt='Google']'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+      "children" : [ {
+        "name" : "TC001 - Navigate to URL and Verify Google Logo is Displayed",
+        "uid" : "46fd32dd1a3ab853",
+        "parentUid" : "1f8e97db68a8436a68b720a24899d03b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619101821721,
+          "stop" : 1619101853535,
+          "duration" : 31814
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "assertElementExists_true_expectedToPass",
+        "uid" : "600717dd7b18c86",
+        "parentUid" : "1f8e97db68a8436a68b720a24899d03b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619101949119,
+          "stop" : 1619101979814,
+          "duration" : 30695
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f8e97db68a8436a68b720a24899d03b"
+    }, {
+      "name" : "Element Action [waitForElementToBePresent] failed. With the following test data [waited for the element's state of presence to be (true). Element locator (By.xpath: //img[@id='hplogo' or @alt='Google'])].",
+      "children" : [ {
+        "name" : "waitForElementToBePresent_true_expectedToPass",
+        "uid" : "9abd2d18a9b5c2e5",
+        "parentUid" : "e4b8e6fa58f4cda18a96fdd7c4d9a5b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619102034526,
+          "stop" : 1619102040848,
+          "duration" : 6322
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e4b8e6fa58f4cda18a96fdd7c4d9a5b7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot invoke \"com.shaft.api.RequestBuilder$AuthenticationType.ordinal()\" because \"this.authenticationType\" is null",
+      "children" : [ {
+        "name" : "getPostsAndAssertBodyForSpecificTitle",
+        "uid" : "ac1de1f1e863b8da",
+        "parentUid" : "1e060515f2e32a00dcb5a59430344cab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619102041137,
+          "stop" : 1619102041316,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e060515f2e32a00dcb5a59430344cab"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
