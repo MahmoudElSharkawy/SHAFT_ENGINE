@@ -1,0 +1,10 @@
+
+################################################################################################################################################
+Starting Execution:	[135 out of 136] test cases in the current suite
+Test Method:		[unitTests.tests_restActions.validateUserEmail]
+################################################################################################################################################
+[ReportManager] Response status code: [520], status line: [HTTP/1.1 520 ] @23-04-2021 02:14:07.0318 AM
+[ReportManager] Evaluating the actual response status code against the expected one...... @23-04-2021 02:14:07.0318 AM
+[ReportManager] AssertEquals FAILED; Expected [200] and Actual [520]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @23-04-2021 02:14:07.0319 AM
+[ReportManager] API Action [performRequest] failed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://jsonplaceholder.typicode.com/users" | Content Type: "*/*" | Response Time: "823ms"]. @23-04-2021 02:14:07.0385 AM
+[ReportManager] Successfully created attachment [API Response - Body] @23-04-2021 02:14:07.0389 A

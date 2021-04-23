@@ -1,0 +1,94 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertElementExists FAILED; Expected [Element Should Exist, locator 'By.xpath: //img[@id='hplogo' or @alt='Google']'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+      "children" : [ {
+        "name" : "TC001 - Navigate to URL and Verify Google Logo is Displayed",
+        "uid" : "78c400366f989c46",
+        "parentUid" : "1f8e97db68a8436a68b720a24899d03b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619143830241,
+          "stop" : 1619143861940,
+          "duration" : 31699
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "assertElementExists_true_expectedToPass",
+        "uid" : "ad25db9944aeb971",
+        "parentUid" : "1f8e97db68a8436a68b720a24899d03b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619143955152,
+          "stop" : 1619143985840,
+          "duration" : 30688
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f8e97db68a8436a68b720a24899d03b"
+    }, {
+      "name" : "Element Action [waitForElementToBePresent] failed. With the following test data [waited for the element's state of presence to be (true). Element locator (By.xpath: //img[@id='hplogo' or @alt='Google'])].",
+      "children" : [ {
+        "name" : "waitForElementToBePresent_true_expectedToPass",
+        "uid" : "5c15f93b562676f1",
+        "parentUid" : "e4b8e6fa58f4cda18a96fdd7c4d9a5b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619144039630,
+          "stop" : 1619144045826,
+          "duration" : 6196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e4b8e6fa58f4cda18a96fdd7c4d9a5b7"
+    }, {
+      "name" : "API Action [performRequest] failed. With the following test data [Request Type: \"GET\" | Target Status Code: \"200\" | Service URL: \"https://jsonplaceholder.typicode.com/users\" | Content Type: \"*/*\" | Response Time: \"823ms\"].",
+      "children" : [ {
+        "name" : "validateUserEmail",
+        "uid" : "c69efbfe61f8201d",
+        "parentUid" : "fb913b1c1cd6f443a0b5b2bb4ecb70f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619144046250,
+          "stop" : 1619144047391,
+          "duration" : 1141
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb913b1c1cd6f443a0b5b2bb4ecb70f6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot invoke \"com.shaft.api.RequestBuilder$AuthenticationType.ordinal()\" because \"this.authenticationType\" is null",
+      "children" : [ {
+        "name" : "getPostsAndAssertBodyForSpecificTitle",
+        "uid" : "530e1658ad53690c",
+        "parentUid" : "1e060515f2e32a00dcb5a59430344cab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619144046075,
+          "stop" : 1619144046246,
+          "duration" : 171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e060515f2e32a00dcb5a59430344cab"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
