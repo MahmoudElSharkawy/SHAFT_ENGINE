@@ -1,0 +1,19 @@
+
+################################################################################################################################################
+Starting Execution:	[18 out of 137] test cases in the current suite
+Test Method:		[testPackage01.Test_uploadFile.uploadFile_visibleUploadInput]
+################################################################################################################################################
+[ReportManager] Target URL: [http://demo.guru99.com/test/upload/] @24-04-2021 15:26:09.0128 PM
+[ReportManager] Initial URL: [data:,] @24-04-2021 15:26:09.0177 PM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [http://demo.guru99.com/test/upload/]. @24-04-2021 15:26:10.0062 PM
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative File Path: "src/main/resources/images/shaft.png"]. @24-04-2021 15:26:10.0062 PM
+[ReportManager] Successfully created attachment [File Action Actual Result - Command Log] @24-04-2021 15:26:10.0063 PM
+[ReportManager] Element Action [typeFileLocationForUpload] successfully performed. With the following test data [/home/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/main/resources/images/shaft.png]. @24-04-2021 15:26:10.0274 PM
+[ReportManager] Element Action [click] successfully performed. With the following test data [on]. @24-04-2021 15:26:10.0685 PM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Submit File]. @24-04-2021 15:26:11.0045 PM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [1 file
+has been successfully uploaded.]. @24-04-2021 15:26:11.0699 PM
+[ReportManager] Loaded Shared OpenCV @24-04-2021 15:26:11.0880 PM
+[ReportManager] AssertElementAttribute PASSED; Expected [Value Should be '1 file' for the 'Text' attribute, element locator 'By.id: res'] and Actual [1 file
+has been successfully uploaded.]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @24-04-2021 15:26:11.0968 PM
+[ReportManager] Successfully created attachment [Screenshot - 1619277971879_uploadFile_visibleUploadInput_AssertElementAttribute_passed] @24-04-2021 15:26:11.0969 P

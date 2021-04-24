@@ -1,0 +1,411 @@
+{
+  "uid" : "99d9edd345eddb9e",
+  "name" : "simpleSelect",
+  "fullName" : "testPackage01.Test_SelectedValue.simpleSelect",
+  "historyId" : "36df61c5fa16064939f2168a752af02b",
+  "time" : {
+    "start" : 1619277941066,
+    "stop" : 1619277943072,
+    "duration" : 2006
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [29]: Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution.",
+      "time" : {
+        "start" : 1619277941067,
+        "stop" : 1619277941067,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "29"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Action [30]: Successfully Opened [GoogleChrome].",
+      "time" : {
+        "start" : 1619277941357,
+        "stop" : 1619277941358,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "30"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [GoogleChrome]."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Action [31]: Browser Action [navigateToURL] successfully performed. With the following test data [https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/select$samples/Basic_select?revision=1612304].",
+      "time" : {
+        "start" : 1619277941785,
+        "stop" : 1619277941786,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "31"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [navigateToURL] successfully performed. With the following test data [https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/select$samples/Basic_select?revision=1612304]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Action [32]: Element Action [select] successfully performed. With the following test data [Third Value].",
+      "time" : {
+        "start" : 1619277942194,
+        "stop" : 1619277942194,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "32"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [select] successfully performed. With the following test data [Third Value]."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Action [33]: Element Action [getSelectedText] successfully performed. With the following test data [Third Value].",
+      "time" : {
+        "start" : 1619277942385,
+        "stop" : 1619277942386,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "33"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [getSelectedText] successfully performed. With the following test data [Third Value]."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Action [34]: Third Value",
+      "time" : {
+        "start" : 1619277942386,
+        "stop" : 1619277942386,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "34"
+      }, {
+        "name" : "logText",
+        "value" : "Third Value"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Action [35]: AssertElementAttribute PASSED; Expected [Value Should be 'Third Value' for the 'selectedText' attribute, element locator 'By.tagName: select'] and Actual [Third Value]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1619277942873,
+        "stop" : 1619277942874,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a55461a7aeb96d46",
+        "name" : "Attachment: Screenshot - 1619277942795_simpleSelect_AssertElementAttribute_passed",
+        "source" : "a55461a7aeb96d46.png",
+        "type" : "image/png",
+        "size" : 11499
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "35"
+      }, {
+        "name" : "logText",
+        "value" : "AssertElementAttribute PASSED; Expected [Value Should be 'Third Value' for the 'selectedText' attribute, element locator 'By.tagName: select'] and Actual [Third Value]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1619277942795_simpleSelect_AssertElementAttribute_passed, java.io.ByteArrayInputStream@1d7d968c]]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Action [36]: Browser Action [closeCurrentWindow] successfully performed.",
+      "time" : {
+        "start" : 1619277943070,
+        "stop" : 1619277943071,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d633faaf2f27972",
+        "name" : "Attachment: Browser Action Test Data - closeCurrentWindow - Actual Value",
+        "source" : "9d633faaf2f27972.html",
+        "type" : "text/html",
+        "size" : 563
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "36"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [closeCurrentWindow] successfully performed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Browser Action Test Data - closeCurrentWindow, Actual Value, <html><head>\n        <meta charset=\"utf-8\">\n        <link href=\"/static/build/styles/samples.37902ba3b7fe.css\" rel=\"stylesheet\" type=\"text/css\">\n        \n        <title>&lt;select&gt;: The HTML Select element - Basic_select - code sample</title>\n    </head>\n    <body>\n        \n            <!-- The second value will be selected initially -->\n<select name=\"choice\">\n  <option value=\"first\">First Value</option>\n  <option value=\"second\" selected=\"\">Second Value</option>\n  <option value=\"third\">Third Value</option>\n</select>\n\n        \n        \n    \n</body></html>]]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "47e22025b4d007b5",
+      "name" : "Attachment: Selenium WebDriver Logs - server",
+      "source" : "47e22025b4d007b5.txt",
+      "type" : "text/plain",
+      "size" : 1288
+    }, {
+      "uid" : "fd722fe93543a76a",
+      "name" : "Attachment: Selenium WebDriver Logs - performance",
+      "source" : "fd722fe93543a76a.txt",
+      "type" : "text/plain",
+      "size" : 13012
+    }, {
+      "uid" : "77da8ef40e2c92e8",
+      "name" : "Attachment: Selenium WebDriver Logs - driver",
+      "source" : "77da8ef40e2c92e8.txt",
+      "type" : "text/plain",
+      "size" : 221929
+    }, {
+      "uid" : "ec78e7e9565a8ea3",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: simpleSelect",
+      "source" : "ec78e7e9565a8ea3.txt",
+      "type" : "text/plain",
+      "size" : 2851
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1619278259278,
+      "stop" : 1619278260106,
+      "duration" : 828
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [526]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1619278259279,
+        "stop" : 1619278259279,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "526"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Action [527]: Issue Summary: Total Issues = 3, New issues for Failed Tests = 1, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1619278259288,
+        "stop" : 1619278259289,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f07156112ee8130a",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210424-153059",
+        "source" : "f07156112ee8130a.csv",
+        "type" : "text/csv",
+        "size" : 370
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "527"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 3, New issues for Failed Tests = 1, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210424-153059, java.io.ByteArrayInputStream@585e14a5]]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b7cf4186e3a2bae1",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210424-153059",
+      "source" : "b7cf4186e3a2bae1.txt",
+      "type" : "text/plain",
+      "size" : 372812
+    }, {
+      "uid" : "dba1869f77d1f826",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "dba1869f77d1f826.html",
+      "type" : "text/html",
+      "size" : 7590253
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_SelectedValue"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_SelectedValue"
+  }, {
+    "name" : "testMethod",
+    "value" : "simpleSelect"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT_Engine: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT_Engine: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_SelectedValue"
+  }, {
+    "name" : "host",
+    "value" : "fv-az63-157"
+  }, {
+    "name" : "thread",
+    "value" : "4025@fv-az63-157.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "42c7678198e50c92",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/112//#testresult/42c7678198e50c92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619229905020,
+          "stop" : 1619229907303,
+          "duration" : 2283
+        }
+      }, {
+        "uid" : "bfca4020f03fa92f",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/111//#testresult/bfca4020f03fa92f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619143657351,
+          "stop" : 1619143659126,
+          "duration" : 1775
+        }
+      }, {
+        "uid" : "d76f5f8f070114d6",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/108//#testresult/d76f5f8f070114d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619101676866,
+          "stop" : 1619101678669,
+          "duration" : 1803
+        }
+      }, {
+        "uid" : "3ab4277c131f9efb",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/96//#testresult/3ab4277c131f9efb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618884801144,
+          "stop" : 1618884803014,
+          "duration" : 1870
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "99d9edd345eddb9e.json",
+  "parameterValues" : [ ]
+}
