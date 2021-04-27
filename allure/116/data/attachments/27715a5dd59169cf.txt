@@ -1,0 +1,5240 @@
+[2021-04-27T02:03:42+0000] [WARNING] Ignoring unrecognized log type: client
+
+[2021-04-27T02:03:42+0000] [WARNING] Ignoring unrecognized log type: profiler
+
+[2021-04-27T02:03:42+0000] [WARNING] Ignoring unrecognized log type: server
+
+[2021-04-27T02:03:42+0000] [INFO] Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/home/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/target/downloadedFiles",
+      "prompt_for_download": "false"
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 0,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-browser-side-navigation --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-gpu --disable-hang-monitor --disable-infobars --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --headless --load-extension=/tmp/.com.google.Chrome.SYKiQj/internal --log-level=0 --no-first-run --no-sandbox --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.U8pOW2 data:,
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools HTTP Request: http://localhost:36795/json/version
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools HTTP Response: {
+   "Browser": "HeadlessChrome/81.0.4044.138",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36",
+   "V8-Version": "8.1.307.32",
+   "WebKit-Version": "537.36 (@8c6c7ba89cc9453625af54f11fd83179e23450fa)",
+   "webSocketDebuggerUrl": "ws://localhost:36795/devtools/browser/a4d6c3fb-6fc9-41e0-88c8-67b45ee43ef0"
+}
+
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools HTTP Request: http://localhost:36795/json/list
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:36795/devtools/page/730742EEC48EF5ABA5F130A88303BFEF",
+   "id": "730742EEC48EF5ABA5F130A88303BFEF",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:36795/devtools/page/730742EEC48EF5ABA5F130A88303BFEF"
+} ]
+
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools HTTP Request: http://localhost:36795/json/list
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:36795/devtools/page/730742EEC48EF5ABA5F130A88303BFEF",
+   "id": "730742EEC48EF5ABA5F130A88303BFEF",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:36795/devtools/page/730742EEC48EF5ABA5F130A88303BFEF"
+} ]
+
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=1) 730742EEC48EF5ABA5F130A88303BFEF {
+   "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=2) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Network.enable (id=3) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Log.enable (id=4) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: DOM.getDocument (id=5) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Target.setAutoAttach (id=6) 730742EEC48EF5ABA5F130A88303BFEF {
+   "autoAttach": true,
+   "flatten": true,
+   "waitForDebuggerOnStart": false
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Page.enable (id=7) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Page.setDownloadBehavior (id=8) 730742EEC48EF5ABA5F130A88303BFEF {
+   "behavior": "allow",
+   "downloadPath": "/home/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/target/downloadedFiles"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Page.enable (id=9) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Page.setDownloadBehavior (id=8) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=1) 730742EEC48EF5ABA5F130A88303BFEF {
+   "identifier": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=2) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "undefined"
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Network.enable (id=3) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Log.enable (id=4) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: DOM.getDocument (id=5) 730742EEC48EF5ABA5F130A88303BFEF {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Target.setAutoAttach (id=6) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Page.enable (id=7) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Page.enable (id=9) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.enable (id=10) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Runtime.executionContextCreated 730742EEC48EF5ABA5F130A88303BFEF {
+   "context": {
+      "auxData": {
+         "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://"
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.enable (id=10) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Page.enable (id=11) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Page.enable (id=11) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.enable (id=12) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.enable (id=12) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Page.enable (id=13) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Page.enable (id=13) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=14) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=14) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999})",
+      "userDataDir": "/tmp/.com.google.Chrome.U8pOW2"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:36795"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Linux",
+   "proxy": {
+
+   },
+   "~~~": "..."
+}
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND SetTimeouts {
+   "ms": 30000,
+   "type": "page load"
+}
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE SetTimeouts
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND SetTimeouts {
+   "ms": 30000,
+   "type": "script"
+}
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE SetTimeouts
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.stop;"
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=15) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=15) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: DOM.getDocument (id=16) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: DOM.getDocument (id=16) 730742EEC48EF5ABA5F130A88303BFEF {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 7,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 8,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         } ],
+         "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+         "localName": "html",
+         "nodeId": 6,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 5
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=17) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=17) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=18) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=18) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": {
+
+         }
+      }
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=19) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=19) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript {
+
+}
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return typeof jQuery != 'undefined'"
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=20) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=20) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=21) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=21) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": false
+      }
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=22) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=22) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript false
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.angular === undefined"
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=23) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=23) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=24) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=24) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=25) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=25) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript true
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=26) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=26) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=27) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=27) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "complete"
+      }
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=28) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=28) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript "complete"
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND GetSource {
+
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=29) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=29) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=30) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=30) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "\u003Chtml>\u003Chead>\u003C/head>\u003Cbody>\u003C/body>\u003C/html>"
+      }
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=31) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=31) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE GetSource "\u003Chtml>\u003Chead>\u003C/head>\u003Cbody>\u003C/body>\u003C/html>"
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND GetUrl {
+
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=32) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=32) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=33) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=33) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "data:,"
+      }
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=34) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=34) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE GetUrl "data:,"
+
+[2021-04-27T02:03:42+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND Navigate {
+   "url": "https://the-internet.herokuapp.com/"
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=35) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=35) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Page.navigate (id=36) 730742EEC48EF5ABA5F130A88303BFEF {
+   "url": "https://the-internet.herokuapp.com/"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSent 730742EEC48EF5ABA5F130A88303BFEF {
+   "documentURL": "https://the-internet.herokuapp.com/",
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "hasUserGesture": false,
+   "initiator": {
+      "type": "other"
+   },
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "request": {
+      "headers": {
+         "Upgrade-Insecure-Requests": "1",
+         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+      },
+      "initialPriority": "VeryHigh",
+      "method": "GET",
+      "mixedContentType": "none",
+      "referrerPolicy": "no-referrer-when-downgrade",
+      "url": "https://the-internet.herokuapp.com/"
+   },
+   "requestId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "timestamp": 384.424788,
+   "type": "Document",
+   "wallTime": 1619489022.771021
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSentExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US",
+      "Connection": "keep-alive",
+      "Host": "the-internet.herokuapp.com",
+      "Sec-Fetch-Dest": "document",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-User": "?1",
+      "Upgrade-Insecure-Requests": "1",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+   },
+   "requestId": "A4B40BF7FA286706BE66A0DE7F464FCC"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceivedExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Connection": "keep-alive",
+      "Content-Length": "4072",
+      "Content-Type": "text/html;charset=utf-8",
+      "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+      "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+      "Set-Cookie": "rack.session=BAh7CUkiD3Nlc3Npb25faWQGOgZFVEkiRWQ0NGYzNDJjYzVhOTBjYTk5MGM1%0ANGQzMzc3NWZiNmUyNDMxNDJiZmM5MWRhMDc1M2U3MTE2NzBkOWViYjkwZTUG%0AOwBGSSIJY3NyZgY7AEZJIiUzNjI3ODhkNjQ1NzM5YjNiMWMzYTU3ZWYxMD...",
+      "Via": "1.1 vegur",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-Xss-Protection": "1; mode=block"
+   },
+   "headersText": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Type: text/html;charset=utf-8\r\nContent-Length: 4072\r\nX-Xss-Protection: 1; mode=block\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\n...",
+   "requestId": "A4B40BF7FA286706BE66A0DE7F464FCC"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "requestId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "response": {
+      "connectionId": 12,
+      "connectionReused": false,
+      "encodedDataLength": 836,
+      "fromDiskCache": false,
+      "fromPrefetchCache": false,
+      "fromServiceWorker": false,
+      "headers": {
+         "Connection": "keep-alive",
+         "Content-Length": "4072",
+         "Content-Type": "text/html;charset=utf-8",
+         "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+         "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+         "Set-Cookie": "rack.session=BAh7CUkiD3Nlc3Npb25faWQGOgZFVEkiRWQ0NGYzNDJjYzVhOTBjYTk5MGM1%0ANGQzMzc3NWZiNmUyNDMxNDJiZmM5MWRhMDc1M2U3MTE2NzBkOWViYjkwZTUG%0AOwBGSSIJY3NyZgY7AEZJIiUzNjI3ODhkNjQ1NzM5YjNiMWMzYTU3ZWYxMD...",
+         "Via": "1.1 vegur",
+         "X-Content-Type-Options": "nosniff",
+         "X-Frame-Options": "SAMEORIGIN",
+         "X-Xss-Protection": "1; mode=block"
+      },
+      "headersText": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Type: text/html;charset=utf-8\r\nContent-Length: 4072\r\nX-Xss-Protection: 1; mode=block\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\n...",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "remoteIPAddress": "23.22.130.173",
+      "remotePort": 443,
+      "requestHeaders": {
+         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+         "Accept-Encoding": "gzip, deflate, br",
+         "Accept-Language": "en-US",
+         "Connection": "keep-alive",
+         "Host": "the-internet.herokuapp.com",
+         "Sec-Fetch-Dest": "document",
+         "Sec-Fetch-Mode": "navigate",
+         "Sec-Fetch-Site": "none",
+         "Sec-Fetch-User": "?1",
+         "Upgrade-Insecure-Requests": "1",
+         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+      },
+      "requestHeadersText": "GET / HTTP/1.1\r\nHost: the-internet.herokuapp.com\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessCh...",
+      "securityDetails": {
+         "certificateId": 0,
+         "certificateTransparencyCompliance": "unknown",
+         "cipher": "AES_128_GCM",
+         "issuer": "DigiCert SHA2 High Assurance Server CA",
+         "keyExchange": "ECDHE_RSA",
+         "keyExchangeGroup": "P-256",
+         "protocol": "TLS 1.2",
+         "sanList": [ "*.herokuapp.com", "herokuapp.com" ],
+         "signedCertificateTimestampList": [  ],
+         "subjectName": "*.herokuapp.com",
+         "validFrom": 1592179200,
+         "validTo": 1625659200
+      },
+      "securityState": "secure",
+      "status": 200,
+      "statusText": "OK",
+      "timing": {
+         "connectEnd": 40.82,
+         "connectStart": 16.6,
+         "dnsEnd": 16.6,
+         "dnsStart": 6.036,
+         "proxyEnd": -1,
+         "proxyStart": -1,
+         "pushEnd": 0,
+         "pushStart": 0,
+         "receiveHeadersEnd": 51.801,
+         "requestTime": 384.425553,
+         "sendEnd": 40.94,
+         "sendStart": 40.873,
+         "sslEnd": 40.781,
+         "sslStart": 23.424,
+         "workerReady": -1,
+         "workerStart": -1
+      },
+      "~~~": "..."
+   },
+   "timestamp": 384.478531,
+   "type": "Document"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Page.navigate (id=36) 730742EEC48EF5ABA5F130A88303BFEF {
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=37) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "document.URL"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Runtime.executionContextsCleared 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Page.frameStartedLoading 730742EEC48EF5ABA5F130A88303BFEF {
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Runtime.executionContextsCleared 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Page.frameNavigated 730742EEC48EF5ABA5F130A88303BFEF {
+   "frame": {
+      "id": "730742EEC48EF5ABA5F130A88303BFEF",
+      "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+      "mimeType": "text/html",
+      "securityOrigin": "https://the-internet.herokuapp.com",
+      "url": "https://the-internet.herokuapp.com/"
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.documentUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: DOM.getDocument (id=38) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Runtime.executionContextCreated 730742EEC48EF5ABA5F130A88303BFEF {
+   "context": {
+      "auxData": {
+         "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "https://the-internet.herokuapp.com"
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=37) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "string",
+      "value": "https://the-internet.herokuapp.com/"
+   }
+}
+
+[2021-04-27T02:03:42+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=39) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 4072,
+   "encodedDataLength": 0,
+   "requestId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "timestamp": 384.489506
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: DOM.getDocument (id=38) 730742EEC48EF5ABA5F130A88303BFEF {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://the-internet.herokuapp.com/",
+      "childNodeCount": 0,
+      "children": [  ],
+      "documentURL": "https://the-internet.herokuapp.com/",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=39) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: DOM.getDocument (id=40) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.loadingFinished 730742EEC48EF5ABA5F130A88303BFEF {
+   "encodedDataLength": 4908,
+   "requestId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "shouldReportCorbBlocking": false,
+   "timestamp": 384.478399
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSentExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US",
+      "Connection": "keep-alive",
+      "Cookie": "rack.session=BAh7CUkiD3Nlc3Npb25faWQGOgZFVEkiRWQ0NGYzNDJjYzVhOTBjYTk5MGM1%0ANGQzMzc3NWZiNmUyNDMxNDJiZmM5MWRhMDc1M2U3MTE2NzBkOWViYjkwZTUG%0AOwBGSSIJY3NyZgY7AEZJIiUzNjI3ODhkNjQ1NzM5YjNiMWMzYTU3ZWYxMD...",
+      "Host": "the-internet.herokuapp.com",
+      "Referer": "https://the-internet.herokuapp.com/",
+      "Sec-Fetch-Dest": "script",
+      "Sec-Fetch-Mode": "no-cors",
+      "Sec-Fetch-Site": "same-origin",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+   },
+   "requestId": "348.2"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeInserted 730742EEC48EF5ABA5F130A88303BFEF {
+   "node": {
+      "backendNodeId": 2,
+      "localName": "",
+      "nodeId": 2,
+      "nodeName": "html",
+      "nodeType": 10,
+      "nodeValue": "",
+      "publicId": "",
+      "systemId": ""
+   },
+   "parentNodeId": 1,
+   "previousNodeId": 0
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeInserted 730742EEC48EF5ABA5F130A88303BFEF {
+   "node": {
+      "backendNodeId": 3,
+      "localName": "",
+      "nodeId": 3,
+      "nodeName": "#comment",
+      "nodeType": 8,
+      "nodeValue": "[if IE 8]>         \u003Chtml class=\"no-js lt-ie9\" lang=\"en\" > \u003C![endif]"
+   },
+   "parentNodeId": 1,
+   "previousNodeId": 2
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeInserted 730742EEC48EF5ABA5F130A88303BFEF {
+   "node": {
+      "backendNodeId": 4,
+      "localName": "",
+      "nodeId": 4,
+      "nodeName": "#comment",
+      "nodeType": 8,
+      "nodeValue": "[if gt IE 8]>\u003C!"
+   },
+   "parentNodeId": 1,
+   "previousNodeId": 3
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeInserted 730742EEC48EF5ABA5F130A88303BFEF {
+   "node": {
+      "attributes": [ "class", "no-js", "lang", "en" ],
+      "backendNodeId": 5,
+      "childNodeCount": 0,
+      "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+      "localName": "html",
+      "nodeId": 5,
+      "nodeName": "HTML",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 1,
+   "previousNodeId": 4
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSent 730742EEC48EF5ABA5F130A88303BFEF {
+   "documentURL": "https://the-internet.herokuapp.com/",
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "hasUserGesture": false,
+   "initiator": {
+      "lineNumber": 6,
+      "type": "parser",
+      "url": "https://the-internet.herokuapp.com/"
+   },
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "request": {
+      "headers": {
+         "Referer": "https://the-internet.herokuapp.com/",
+         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+      },
+      "initialPriority": "High",
+      "method": "GET",
+      "mixedContentType": "none",
+      "referrerPolicy": "no-referrer-when-downgrade",
+      "url": "https://the-internet.herokuapp.com/js/vendor/298279967.js"
+   },
+   "requestId": "348.2",
+   "timestamp": 384.490691,
+   "type": "Script",
+   "wallTime": 1619489022.836916
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSent 730742EEC48EF5ABA5F130A88303BFEF {
+   "documentURL": "https://the-internet.herokuapp.com/",
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "hasUserGesture": false,
+   "initiator": {
+      "lineNumber": 10,
+      "type": "parser",
+      "url": "https://the-internet.herokuapp.com/"
+   },
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "request": {
+      "headers": {
+         "Referer": "https://the-internet.herokuapp.com/",
+         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+      },
+      "initialPriority": "VeryHigh",
+      "method": "GET",
+      "mixedContentType": "none",
+      "referrerPolicy": "no-referrer-when-downgrade",
+      "url": "https://the-internet.herokuapp.com/css/app.css"
+   },
+   "requestId": "348.3",
+   "timestamp": 384.490875,
+   "type": "Stylesheet",
+   "wallTime": 1619489022.8371
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSent 730742EEC48EF5ABA5F130A88303BFEF {
+   "documentURL": "https://the-internet.herokuapp.com/",
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "hasUserGesture": false,
+   "initiator": {
+      "lineNumber": 11,
+      "type": "parser",
+      "url": "https://the-internet.herokuapp.com/"
+   },
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "request": {
+      "headers": {
+         "Referer": "https://the-internet.herokuapp.com/",
+         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+      },
+      "initialPriority": "VeryHigh",
+      "method": "GET",
+      "mixedContentType": "none",
+      "referrerPolicy": "no-referrer-when-downgrade",
+      "url": "https://the-internet.herokuapp.com/css/font-awesome.css"
+   },
+   "requestId": "348.4",
+   "timestamp": 384.490958,
+   "type": "Stylesheet",
+   "wallTime": 1619489022.837184
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSent 730742EEC48EF5ABA5F130A88303BFEF {
+   "documentURL": "https://the-internet.herokuapp.com/",
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "hasUserGesture": false,
+   "initiator": {
+      "lineNumber": 12,
+      "type": "parser",
+      "url": "https://the-internet.herokuapp.com/"
+   },
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "request": {
+      "headers": {
+         "Referer": "https://the-internet.herokuapp.com/",
+         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+      },
+      "initialPriority": "High",
+      "method": "GET",
+      "mixedContentType": "none",
+      "referrerPolicy": "no-referrer-when-downgrade",
+      "url": "https://the-internet.herokuapp.com/js/vendor/jquery-1.11.3.min.js"
+   },
+   "requestId": "348.5",
+   "timestamp": 384.49114,
+   "type": "Script",
+   "wallTime": 1619489022.837365
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSent 730742EEC48EF5ABA5F130A88303BFEF {
+   "documentURL": "https://the-internet.herokuapp.com/",
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "hasUserGesture": false,
+   "initiator": {
+      "lineNumber": 13,
+      "type": "parser",
+      "url": "https://the-internet.herokuapp.com/"
+   },
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "request": {
+      "headers": {
+         "Referer": "https://the-internet.herokuapp.com/",
+         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+      },
+      "initialPriority": "High",
+      "method": "GET",
+      "mixedContentType": "none",
+      "referrerPolicy": "no-referrer-when-downgrade",
+      "url": "https://the-internet.herokuapp.com/js/vendor/jquery-ui-1.11.4/jquery-ui.js"
+   },
+   "requestId": "348.6",
+   "timestamp": 384.491277,
+   "type": "Script",
+   "wallTime": 1619489022.837503
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSent 730742EEC48EF5ABA5F130A88303BFEF {
+   "documentURL": "https://the-internet.herokuapp.com/",
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "hasUserGesture": false,
+   "initiator": {
+      "lineNumber": 14,
+      "type": "parser",
+      "url": "https://the-internet.herokuapp.com/"
+   },
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "request": {
+      "headers": {
+         "Referer": "https://the-internet.herokuapp.com/",
+         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+      },
+      "initialPriority": "High",
+      "method": "GET",
+      "mixedContentType": "none",
+      "referrerPolicy": "no-referrer-when-downgrade",
+      "url": "https://the-internet.herokuapp.com/js/foundation/foundation.js"
+   },
+   "requestId": "348.7",
+   "timestamp": 384.491453,
+   "type": "Script",
+   "wallTime": 1619489022.837678
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSent 730742EEC48EF5ABA5F130A88303BFEF {
+   "documentURL": "https://the-internet.herokuapp.com/",
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "hasUserGesture": false,
+   "initiator": {
+      "lineNumber": 15,
+      "type": "parser",
+      "url": "https://the-internet.herokuapp.com/"
+   },
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "request": {
+      "headers": {
+         "Referer": "https://the-internet.herokuapp.com/",
+         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+      },
+      "initialPriority": "High",
+      "method": "GET",
+      "mixedContentType": "none",
+      "referrerPolicy": "no-referrer-when-downgrade",
+      "url": "https://the-internet.herokuapp.com/js/foundation/foundation.alerts.js"
+   },
+   "requestId": "348.8",
+   "timestamp": 384.491587,
+   "type": "Script",
+   "wallTime": 1619489022.837812
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSent 730742EEC48EF5ABA5F130A88303BFEF {
+   "documentURL": "https://the-internet.herokuapp.com/",
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "hasUserGesture": false,
+   "initiator": {
+      "lineNumber": 33,
+      "type": "parser",
+      "url": "https://the-internet.herokuapp.com/"
+   },
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "request": {
+      "headers": {
+         "Referer": "https://the-internet.herokuapp.com/",
+         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+      },
+      "initialPriority": "Low",
+      "method": "GET",
+      "mixedContentType": "none",
+      "referrerPolicy": "no-referrer-when-downgrade",
+      "url": "https://the-internet.herokuapp.com/img/forkme_right_green_007200.png"
+   },
+   "requestId": "348.9",
+   "timestamp": 384.491713,
+   "type": "Image",
+   "wallTime": 1619489022.837938
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 1,
+   "nodeId": 5
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 2,
+   "nodeId": 5
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: DOM.getDocument (id=40) 730742EEC48EF5ABA5F130A88303BFEF {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://the-internet.herokuapp.com/",
+      "childNodeCount": 4,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 7,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 6,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "backendNodeId": 3,
+         "localName": "",
+         "nodeId": 8,
+         "nodeName": "#comment",
+         "nodeType": 8,
+         "nodeValue": "[if IE 8]>         \u003Chtml class=\"no-js lt-ie9\" lang=\"en\" > \u003C![endif]",
+         "parentId": 6
+      }, {
+         "backendNodeId": 4,
+         "localName": "",
+         "nodeId": 9,
+         "nodeName": "#comment",
+         "nodeType": 8,
+         "nodeValue": "[if gt IE 8]>\u003C!",
+         "parentId": 6
+      }, {
+         "attributes": [ "class", "no-js", "lang", "en" ],
+         "backendNodeId": 5,
+         "childNodeCount": 2,
+         "children": [ {
+            "backendNodeId": 6,
+            "localName": "",
+            "nodeId": 11,
+            "nodeName": "#comment",
+            "nodeType": 8,
+            "nodeValue": "\u003C![endif]",
+            "parentId": 10
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 7,
+            "childNodeCount": 1,
+            "localName": "head",
+            "nodeId": 12,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 10
+         } ],
+         "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+         "localName": "html",
+         "nodeId": 10,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 6
+      } ],
+      "documentURL": "https://the-internet.herokuapp.com/",
+      "localName": "",
+      "nodeId": 6,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=41) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=41) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "string",
+      "value": "loading"
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceivedExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Connection": "keep-alive",
+      "Content-Length": "132435",
+      "Content-Type": "application/javascript;charset=utf-8",
+      "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+      "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+      "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+      "Via": "1.1 vegur",
+      "X-Content-Type-Options": "nosniff"
+   },
+   "headersText": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Type: application/javascript;charset=utf-8\r\nLast-Modified: Mon, 15 Feb 2021 17:29:38 GMT\r\nContent-Length: 132435\r\nX-Content-Type-Options: nosniff\r\nS...",
+   "requestId": "348.2"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=42) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=42) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "requestId": "348.2",
+   "response": {
+      "connectionId": 12,
+      "connectionReused": true,
+      "encodedDataLength": 298,
+      "fromDiskCache": false,
+      "fromPrefetchCache": false,
+      "fromServiceWorker": false,
+      "headers": {
+         "Connection": "keep-alive",
+         "Content-Length": "132435",
+         "Content-Type": "application/javascript;charset=utf-8",
+         "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+         "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+         "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+         "Via": "1.1 vegur",
+         "X-Content-Type-Options": "nosniff"
+      },
+      "mimeType": "application/javascript",
+      "protocol": "http/1.1",
+      "remoteIPAddress": "23.22.130.173",
+      "remotePort": 443,
+      "securityDetails": {
+         "certificateId": 0,
+         "certificateTransparencyCompliance": "unknown",
+         "cipher": "AES_128_GCM",
+         "issuer": "DigiCert SHA2 High Assurance Server CA",
+         "keyExchange": "ECDHE_RSA",
+         "keyExchangeGroup": "P-256",
+         "protocol": "TLS 1.2",
+         "sanList": [ "*.herokuapp.com", "herokuapp.com" ],
+         "signedCertificateTimestampList": [  ],
+         "subjectName": "*.herokuapp.com",
+         "validFrom": 1592179200,
+         "validTo": 1625659200
+      },
+      "securityState": "secure",
+      "status": 200,
+      "statusText": "OK",
+      "timing": {
+         "connectEnd": -1,
+         "connectStart": -1,
+         "dnsEnd": -1,
+         "dnsStart": -1,
+         "proxyEnd": -1,
+         "proxyStart": -1,
+         "pushEnd": 0,
+         "pushStart": 0,
+         "receiveHeadersEnd": 11.15,
+         "requestTime": 384.490908,
+         "sendEnd": 0.547,
+         "sendStart": 0.486,
+         "sslEnd": -1,
+         "sslStart": -1,
+         "workerReady": -1,
+         "workerStart": -1
+      },
+      "url": "https://the-internet.herokuapp.com/js/vendor/298279967.js"
+   },
+   "timestamp": 384.503134,
+   "type": "Script"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 13032,
+   "encodedDataLength": 0,
+   "requestId": "348.2",
+   "timestamp": 384.503198
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=43) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=43) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSentExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Accept": "text/css,*/*;q=0.1",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US",
+      "Connection": "keep-alive",
+      "Cookie": "rack.session=BAh7CUkiD3Nlc3Npb25faWQGOgZFVEkiRWQ0NGYzNDJjYzVhOTBjYTk5MGM1%0ANGQzMzc3NWZiNmUyNDMxNDJiZmM5MWRhMDc1M2U3MTE2NzBkOWViYjkwZTUG%0AOwBGSSIJY3NyZgY7AEZJIiUzNjI3ODhkNjQ1NzM5YjNiMWMzYTU3ZWYxMD...",
+      "Host": "the-internet.herokuapp.com",
+      "Referer": "https://the-internet.herokuapp.com/",
+      "Sec-Fetch-Dest": "style",
+      "Sec-Fetch-Mode": "no-cors",
+      "Sec-Fetch-Site": "same-origin",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+   },
+   "requestId": "348.3"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=44) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSentExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Accept": "text/css,*/*;q=0.1",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US",
+      "Connection": "keep-alive",
+      "Cookie": "rack.session=BAh7CUkiD3Nlc3Npb25faWQGOgZFVEkiRWQ0NGYzNDJjYzVhOTBjYTk5MGM1%0ANGQzMzc3NWZiNmUyNDMxNDJiZmM5MWRhMDc1M2U3MTE2NzBkOWViYjkwZTUG%0AOwBGSSIJY3NyZgY7AEZJIiUzNjI3ODhkNjQ1NzM5YjNiMWMzYTU3ZWYxMD...",
+      "Host": "the-internet.herokuapp.com",
+      "Referer": "https://the-internet.herokuapp.com/",
+      "Sec-Fetch-Dest": "style",
+      "Sec-Fetch-Mode": "no-cors",
+      "Sec-Fetch-Site": "same-origin",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+   },
+   "requestId": "348.4"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSentExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US",
+      "Connection": "keep-alive",
+      "Cookie": "rack.session=BAh7CUkiD3Nlc3Npb25faWQGOgZFVEkiRWQ0NGYzNDJjYzVhOTBjYTk5MGM1%0ANGQzMzc3NWZiNmUyNDMxNDJiZmM5MWRhMDc1M2U3MTE2NzBkOWViYjkwZTUG%0AOwBGSSIJY3NyZgY7AEZJIiUzNjI3ODhkNjQ1NzM5YjNiMWMzYTU3ZWYxMD...",
+      "Host": "the-internet.herokuapp.com",
+      "Referer": "https://the-internet.herokuapp.com/",
+      "Sec-Fetch-Dest": "script",
+      "Sec-Fetch-Mode": "no-cors",
+      "Sec-Fetch-Site": "same-origin",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+   },
+   "requestId": "348.5"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSentExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US",
+      "Connection": "keep-alive",
+      "Cookie": "rack.session=BAh7CUkiD3Nlc3Npb25faWQGOgZFVEkiRWQ0NGYzNDJjYzVhOTBjYTk5MGM1%0ANGQzMzc3NWZiNmUyNDMxNDJiZmM5MWRhMDc1M2U3MTE2NzBkOWViYjkwZTUG%0AOwBGSSIJY3NyZgY7AEZJIiUzNjI3ODhkNjQ1NzM5YjNiMWMzYTU3ZWYxMD...",
+      "Host": "the-internet.herokuapp.com",
+      "Referer": "https://the-internet.herokuapp.com/",
+      "Sec-Fetch-Dest": "script",
+      "Sec-Fetch-Mode": "no-cors",
+      "Sec-Fetch-Site": "same-origin",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+   },
+   "requestId": "348.6"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSentExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US",
+      "Connection": "keep-alive",
+      "Cookie": "rack.session=BAh7CUkiD3Nlc3Npb25faWQGOgZFVEkiRWQ0NGYzNDJjYzVhOTBjYTk5MGM1%0ANGQzMzc3NWZiNmUyNDMxNDJiZmM5MWRhMDc1M2U3MTE2NzBkOWViYjkwZTUG%0AOwBGSSIJY3NyZgY7AEZJIiUzNjI3ODhkNjQ1NzM5YjNiMWMzYTU3ZWYxMD...",
+      "Host": "the-internet.herokuapp.com",
+      "Referer": "https://the-internet.herokuapp.com/",
+      "Sec-Fetch-Dest": "script",
+      "Sec-Fetch-Mode": "no-cors",
+      "Sec-Fetch-Site": "same-origin",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+   },
+   "requestId": "348.7"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=44) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 40544,
+   "encodedDataLength": 13032,
+   "requestId": "348.2",
+   "timestamp": 384.509045
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=45) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=45) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 37601,
+   "encodedDataLength": 78145,
+   "requestId": "348.2",
+   "timestamp": 384.515654
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=46) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=46) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 41258,
+   "encodedDataLength": 0,
+   "requestId": "348.2",
+   "timestamp": 384.521959
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=47) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSentExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US",
+      "Connection": "keep-alive",
+      "Cookie": "rack.session=BAh7CUkiD3Nlc3Npb25faWQGOgZFVEkiRWQ0NGYzNDJjYzVhOTBjYTk5MGM1%0ANGQzMzc3NWZiNmUyNDMxNDJiZmM5MWRhMDc1M2U3MTE2NzBkOWViYjkwZTUG%0AOwBGSSIJY3NyZgY7AEZJIiUzNjI3ODhkNjQ1NzM5YjNiMWMzYTU3ZWYxMD...",
+      "Host": "the-internet.herokuapp.com",
+      "Referer": "https://the-internet.herokuapp.com/",
+      "Sec-Fetch-Dest": "script",
+      "Sec-Fetch-Mode": "no-cors",
+      "Sec-Fetch-Site": "same-origin",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+   },
+   "requestId": "348.8"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=47) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceivedExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Connection": "keep-alive",
+      "Content-Length": "12715",
+      "Content-Type": "application/javascript;charset=utf-8",
+      "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+      "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+      "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+      "Via": "1.1 vegur",
+      "X-Content-Type-Options": "nosniff"
+   },
+   "headersText": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Type: application/javascript;charset=utf-8\r\nLast-Modified: Mon, 15 Feb 2021 17:29:38 GMT\r\nContent-Length: 12715\r\nX-Content-Type-Options: nosniff\r\nSe...",
+   "requestId": "348.7"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=48) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceivedExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Connection": "keep-alive",
+      "Content-Length": "353394",
+      "Content-Type": "text/css;charset=utf-8",
+      "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+      "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+      "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+      "Via": "1.1 vegur",
+      "X-Content-Type-Options": "nosniff"
+   },
+   "headersText": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Type: text/css;charset=utf-8\r\nLast-Modified: Mon, 15 Feb 2021 17:29:38 GMT\r\nContent-Length: 353394\r\nX-Content-Type-Options: nosniff\r\nServer: WEBrick...",
+   "requestId": "348.3"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceivedExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Connection": "keep-alive",
+      "Content-Length": "470596",
+      "Content-Type": "application/javascript;charset=utf-8",
+      "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+      "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+      "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+      "Via": "1.1 vegur",
+      "X-Content-Type-Options": "nosniff"
+   },
+   "headersText": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Type: application/javascript;charset=utf-8\r\nLast-Modified: Mon, 15 Feb 2021 17:29:38 GMT\r\nContent-Length: 470596\r\nX-Content-Type-Options: nosniff\r\nS...",
+   "requestId": "348.6"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "requestId": "348.7",
+   "response": {
+      "connectionId": 49,
+      "connectionReused": false,
+      "encodedDataLength": 297,
+      "fromDiskCache": false,
+      "fromPrefetchCache": false,
+      "fromServiceWorker": false,
+      "headers": {
+         "Connection": "keep-alive",
+         "Content-Length": "12715",
+         "Content-Type": "application/javascript;charset=utf-8",
+         "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+         "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+         "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+         "Via": "1.1 vegur",
+         "X-Content-Type-Options": "nosniff"
+      },
+      "mimeType": "application/javascript",
+      "protocol": "http/1.1",
+      "remoteIPAddress": "23.22.130.173",
+      "remotePort": 443,
+      "securityDetails": {
+         "certificateId": 0,
+         "certificateTransparencyCompliance": "unknown",
+         "cipher": "AES_128_GCM",
+         "issuer": "DigiCert SHA2 High Assurance Server CA",
+         "keyExchange": "ECDHE_RSA",
+         "keyExchangeGroup": "P-256",
+         "protocol": "TLS 1.2",
+         "sanList": [ "*.herokuapp.com", "herokuapp.com" ],
+         "signedCertificateTimestampList": [  ],
+         "subjectName": "*.herokuapp.com",
+         "validFrom": 1592179200,
+         "validTo": 1625659200
+      },
+      "securityState": "secure",
+      "status": 200,
+      "statusText": "OK",
+      "timing": {
+         "connectEnd": 14.405,
+         "connectStart": 0.626,
+         "dnsEnd": 0.626,
+         "dnsStart": 0.621,
+         "proxyEnd": -1,
+         "proxyStart": -1,
+         "pushEnd": 0,
+         "pushStart": 0,
+         "receiveHeadersEnd": 30.204,
+         "requestTime": 384.492539,
+         "sendEnd": 15.049,
+         "sendStart": 14.9,
+         "sslEnd": 14.404,
+         "sslStart": 8.013,
+         "workerReady": -1,
+         "workerStart": -1
+      },
+      "url": "https://the-internet.herokuapp.com/js/foundation/foundation.js"
+   },
+   "timestamp": 384.52422,
+   "type": "Script"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=48) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "requestId": "348.3",
+   "response": {
+      "connectionId": 33,
+      "connectionReused": false,
+      "encodedDataLength": 284,
+      "fromDiskCache": false,
+      "fromPrefetchCache": false,
+      "fromServiceWorker": false,
+      "headers": {
+         "Connection": "keep-alive",
+         "Content-Length": "353394",
+         "Content-Type": "text/css;charset=utf-8",
+         "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+         "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+         "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+         "Via": "1.1 vegur",
+         "X-Content-Type-Options": "nosniff"
+      },
+      "mimeType": "text/css",
+      "protocol": "http/1.1",
+      "remoteIPAddress": "23.22.130.173",
+      "remotePort": 443,
+      "securityDetails": {
+         "certificateId": 0,
+         "certificateTransparencyCompliance": "unknown",
+         "cipher": "AES_128_GCM",
+         "issuer": "DigiCert SHA2 High Assurance Server CA",
+         "keyExchange": "ECDHE_RSA",
+         "keyExchangeGroup": "P-256",
+         "protocol": "TLS 1.2",
+         "sanList": [ "*.herokuapp.com", "herokuapp.com" ],
+         "signedCertificateTimestampList": [  ],
+         "subjectName": "*.herokuapp.com",
+         "validFrom": 1592179200,
+         "validTo": 1625659200
+      },
+      "securityState": "secure",
+      "status": 200,
+      "statusText": "OK",
+      "timing": {
+         "connectEnd": 14.823,
+         "connectStart": 1.501,
+         "dnsEnd": 1.501,
+         "dnsStart": 1.495,
+         "proxyEnd": -1,
+         "proxyStart": -1,
+         "pushEnd": 0,
+         "pushStart": 0,
+         "receiveHeadersEnd": 31.869,
+         "requestTime": 384.49132,
+         "sendEnd": 15.014,
+         "sendStart": 14.868,
+         "sslEnd": 14.819,
+         "sslStart": 8.638,
+         "workerReady": -1,
+         "workerStart": -1
+      },
+      "url": "https://the-internet.herokuapp.com/css/app.css"
+   },
+   "timestamp": 384.524597,
+   "type": "Stylesheet"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=49) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceivedExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Connection": "keep-alive",
+      "Content-Length": "28747",
+      "Content-Type": "text/css;charset=utf-8",
+      "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+      "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+      "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+      "Via": "1.1 vegur",
+      "X-Content-Type-Options": "nosniff"
+   },
+   "headersText": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Type: text/css;charset=utf-8\r\nLast-Modified: Mon, 15 Feb 2021 17:29:38 GMT\r\nContent-Length: 28747\r\nX-Content-Type-Options: nosniff\r\nServer: WEBrick/...",
+   "requestId": "348.4"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "requestId": "348.6",
+   "response": {
+      "connectionId": 45,
+      "connectionReused": false,
+      "encodedDataLength": 298,
+      "fromDiskCache": false,
+      "fromPrefetchCache": false,
+      "fromServiceWorker": false,
+      "headers": {
+         "Connection": "keep-alive",
+         "Content-Length": "470596",
+         "Content-Type": "application/javascript;charset=utf-8",
+         "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+         "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+         "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+         "Via": "1.1 vegur",
+         "X-Content-Type-Options": "nosniff"
+      },
+      "mimeType": "application/javascript",
+      "protocol": "http/1.1",
+      "remoteIPAddress": "23.22.130.173",
+      "remotePort": 443,
+      "securityDetails": {
+         "certificateId": 0,
+         "certificateTransparencyCompliance": "unknown",
+         "cipher": "AES_128_GCM",
+         "issuer": "DigiCert SHA2 High Assurance Server CA",
+         "keyExchange": "ECDHE_RSA",
+         "keyExchangeGroup": "P-256",
+         "protocol": "TLS 1.2",
+         "sanList": [ "*.herokuapp.com", "herokuapp.com" ],
+         "signedCertificateTimestampList": [  ],
+         "subjectName": "*.herokuapp.com",
+         "validFrom": 1592179200,
+         "validTo": 1625659200
+      },
+      "securityState": "secure",
+      "status": 200,
+      "statusText": "OK",
+      "timing": {
+         "connectEnd": 14.503,
+         "connectStart": 0.721,
+         "dnsEnd": 0.721,
+         "dnsStart": 0.71,
+         "proxyEnd": -1,
+         "proxyStart": -1,
+         "pushEnd": 0,
+         "pushStart": 0,
+         "receiveHeadersEnd": 31.315,
+         "requestTime": 384.49236,
+         "sendEnd": 14.785,
+         "sendStart": 14.754,
+         "sslEnd": 14.502,
+         "sslStart": 8.088,
+         "workerReady": -1,
+         "workerStart": -1
+      },
+      "url": "https://the-internet.herokuapp.com/js/vendor/jquery-ui-1.11.4/jquery-ui.js"
+   },
+   "timestamp": 384.524951,
+   "type": "Script"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=49) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceivedExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Connection": "keep-alive",
+      "Content-Length": "95957",
+      "Content-Type": "application/javascript;charset=utf-8",
+      "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+      "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+      "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+      "Via": "1.1 vegur",
+      "X-Content-Type-Options": "nosniff"
+   },
+   "headersText": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Type: application/javascript;charset=utf-8\r\nLast-Modified: Mon, 15 Feb 2021 17:29:38 GMT\r\nContent-Length: 95957\r\nX-Content-Type-Options: nosniff\r\nSe...",
+   "requestId": "348.5"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=50) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=50) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 0,
+   "encodedDataLength": 41258,
+   "requestId": "348.2",
+   "timestamp": 384.527173
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=51) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.loadingFinished 730742EEC48EF5ABA5F130A88303BFEF {
+   "encodedDataLength": 132733,
+   "requestId": "348.2",
+   "shouldReportCorbBlocking": false,
+   "timestamp": 384.521817
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceivedExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Connection": "keep-alive",
+      "Content-Length": "1392",
+      "Content-Type": "application/javascript;charset=utf-8",
+      "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+      "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+      "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+      "Via": "1.1 vegur",
+      "X-Content-Type-Options": "nosniff"
+   },
+   "headersText": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Type: application/javascript;charset=utf-8\r\nLast-Modified: Mon, 15 Feb 2021 17:29:38 GMT\r\nContent-Length: 1392\r\nX-Content-Type-Options: nosniff\r\nSer...",
+   "requestId": "348.8"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeInserted 730742EEC48EF5ABA5F130A88303BFEF {
+   "node": {
+      "attributes": [ "style", "visibility: hidden; width: 0px; height: 0px; border: 0px; margin: 0px; background: none;" ],
+      "backendNodeId": 8,
+      "childNodeCount": 1,
+      "localName": "body",
+      "nodeId": 13,
+      "nodeName": "BODY",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 10,
+   "previousNodeId": 0
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 0,
+   "nodeId": 13
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeRemoved 730742EEC48EF5ABA5F130A88303BFEF {
+   "nodeId": 13,
+   "parentNodeId": 10
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeInserted 730742EEC48EF5ABA5F130A88303BFEF {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 9,
+      "childNodeCount": 1,
+      "localName": "div",
+      "nodeId": 14,
+      "nodeName": "DIV",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 10,
+   "previousNodeId": 0
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeRemoved 730742EEC48EF5ABA5F130A88303BFEF {
+   "nodeId": 14,
+   "parentNodeId": 10
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSent 730742EEC48EF5ABA5F130A88303BFEF {
+   "documentURL": "https://the-internet.herokuapp.com/",
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "hasUserGesture": false,
+   "initiator": {
+      "stack": {
+         "callFrames": [ {
+            "columnNumber": 149,
+            "functionName": "wa",
+            "lineNumber": 159,
+            "scriptId": "7",
+            "url": "https://the-internet.herokuapp.com/js/vendor/298279967.js"
+         }, {
+            "columnNumber": 15,
+            "functionName": "ma",
+            "lineNumber": 164,
+            "scriptId": "7",
+            "url": "https://the-internet.herokuapp.com/js/vendor/298279967.js"
+         }, {
+            "columnNumber": 106,
+            "functionName": "Z",
+            "lineNumber": 264,
+            "scriptId": "7",
+            "url": "https://the-internet.herokuapp.com/js/vendor/298279967.js"
+         }, {
+            "columnNumber": 387,
+            "functionName": "optimizelyCode",
+            "lineNumber": 268,
+            "scriptId": "7",
+            "url": "https://the-internet.herokuapp.com/js/vendor/298279967.js"
+         }, {
+            "columnNumber": 0,
+            "functionName": "",
+            "lineNumber": 271,
+            "scriptId": "7",
+            "url": "https://the-internet.herokuapp.com/js/vendor/298279967.js"
+         } ]
+      },
+      "type": "script"
+   },
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "request": {
+      "headers": {
+         "Referer": "https://the-internet.herokuapp.com/",
+         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+      },
+      "initialPriority": "High",
+      "method": "GET",
+      "mixedContentType": "none",
+      "referrerPolicy": "no-referrer-when-downgrade",
+      "url": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2F&u=oeu1619489022892r0.6893361300328602&wxhr=true&t=1619489022898&f=298349752,..."
+   },
+   "requestId": "348.11",
+   "timestamp": 384.570032,
+   "type": "XHR",
+   "wallTime": 1619489022.916258
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 2,
+   "nodeId": 12
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 3,
+   "nodeId": 12
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 4,
+   "nodeId": 12
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 5,
+   "nodeId": 12
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 6,
+   "nodeId": 12
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 7,
+   "nodeId": 12
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=51) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 12715,
+   "encodedDataLength": 0,
+   "requestId": "348.7",
+   "timestamp": 384.575293
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 65536,
+   "encodedDataLength": 0,
+   "requestId": "348.3",
+   "timestamp": 384.575359
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=52) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 104256,
+   "encodedDataLength": 0,
+   "requestId": "348.6",
+   "timestamp": 384.575458
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "requestId": "348.4",
+   "response": {
+      "connectionId": 37,
+      "connectionReused": false,
+      "encodedDataLength": 283,
+      "fromDiskCache": false,
+      "fromPrefetchCache": false,
+      "fromServiceWorker": false,
+      "headers": {
+         "Connection": "keep-alive",
+         "Content-Length": "28747",
+         "Content-Type": "text/css;charset=utf-8",
+         "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+         "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+         "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+         "Via": "1.1 vegur",
+         "X-Content-Type-Options": "nosniff"
+      },
+      "mimeType": "text/css",
+      "protocol": "http/1.1",
+      "remoteIPAddress": "23.22.130.173",
+      "remotePort": 443,
+      "securityDetails": {
+         "certificateId": 0,
+         "certificateTransparencyCompliance": "unknown",
+         "cipher": "AES_128_GCM",
+         "issuer": "DigiCert SHA2 High Assurance Server CA",
+         "keyExchange": "ECDHE_RSA",
+         "keyExchangeGroup": "P-256",
+         "protocol": "TLS 1.2",
+         "sanList": [ "*.herokuapp.com", "herokuapp.com" ],
+         "signedCertificateTimestampList": [  ],
+         "subjectName": "*.herokuapp.com",
+         "validFrom": 1592179200,
+         "validTo": 1625659200
+      },
+      "securityState": "secure",
+      "status": 200,
+      "statusText": "OK",
+      "timing": {
+         "connectEnd": 14.619,
+         "connectStart": 0.918,
+         "dnsEnd": 0.918,
+         "dnsStart": 0.913,
+         "proxyEnd": -1,
+         "proxyStart": -1,
+         "pushEnd": 0,
+         "pushStart": 0,
+         "receiveHeadersEnd": 33.239,
+         "requestTime": 384.492015,
+         "sendEnd": 15.033,
+         "sendStart": 14.975,
+         "sslEnd": 14.484,
+         "sslStart": 8.206,
+         "workerReady": -1,
+         "workerStart": -1
+      },
+      "url": "https://the-internet.herokuapp.com/css/font-awesome.css"
+   },
+   "timestamp": 384.577585,
+   "type": "Stylesheet"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 28747,
+   "encodedDataLength": 0,
+   "requestId": "348.4",
+   "timestamp": 384.577638
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 0,
+   "encodedDataLength": 28747,
+   "requestId": "348.4",
+   "timestamp": 384.578722
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.loadingFinished 730742EEC48EF5ABA5F130A88303BFEF {
+   "encodedDataLength": 29030,
+   "requestId": "348.4",
+   "shouldReportCorbBlocking": false,
+   "timestamp": 384.528618
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "requestId": "348.5",
+   "response": {
+      "connectionId": 41,
+      "connectionReused": false,
+      "encodedDataLength": 297,
+      "fromDiskCache": false,
+      "fromPrefetchCache": false,
+      "fromServiceWorker": false,
+      "headers": {
+         "Connection": "keep-alive",
+         "Content-Length": "95957",
+         "Content-Type": "application/javascript;charset=utf-8",
+         "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+         "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+         "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+         "Via": "1.1 vegur",
+         "X-Content-Type-Options": "nosniff"
+      },
+      "mimeType": "application/javascript",
+      "protocol": "http/1.1",
+      "remoteIPAddress": "23.22.130.173",
+      "remotePort": 443,
+      "securityDetails": {
+         "certificateId": 0,
+         "certificateTransparencyCompliance": "unknown",
+         "cipher": "AES_128_GCM",
+         "issuer": "DigiCert SHA2 High Assurance Server CA",
+         "keyExchange": "ECDHE_RSA",
+         "keyExchangeGroup": "P-256",
+         "protocol": "TLS 1.2",
+         "sanList": [ "*.herokuapp.com", "herokuapp.com" ],
+         "signedCertificateTimestampList": [  ],
+         "subjectName": "*.herokuapp.com",
+         "validFrom": 1592179200,
+         "validTo": 1625659200
+      },
+      "securityState": "secure",
+      "status": 200,
+      "statusText": "OK",
+      "timing": {
+         "connectEnd": 14.562,
+         "connectStart": 0.808,
+         "dnsEnd": 0.808,
+         "dnsStart": 0.803,
+         "proxyEnd": -1,
+         "proxyStart": -1,
+         "pushEnd": 0,
+         "pushStart": 0,
+         "receiveHeadersEnd": 34.315,
+         "requestTime": 384.4922,
+         "sendEnd": 14.901,
+         "sendStart": 14.864,
+         "sslEnd": 14.56,
+         "sslStart": 8.133,
+         "workerReady": -1,
+         "workerStart": -1
+      },
+      "url": "https://the-internet.herokuapp.com/js/vendor/jquery-1.11.3.min.js"
+   },
+   "timestamp": 384.579075,
+   "type": "Script"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 95957,
+   "encodedDataLength": 0,
+   "requestId": "348.5",
+   "timestamp": 384.579165
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "requestId": "348.8",
+   "response": {
+      "connectionId": 12,
+      "connectionReused": true,
+      "encodedDataLength": 296,
+      "fromDiskCache": false,
+      "fromPrefetchCache": false,
+      "fromServiceWorker": false,
+      "headers": {
+         "Connection": "keep-alive",
+         "Content-Length": "1392",
+         "Content-Type": "application/javascript;charset=utf-8",
+         "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+         "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+         "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+         "Via": "1.1 vegur",
+         "X-Content-Type-Options": "nosniff"
+      },
+      "mimeType": "application/javascript",
+      "protocol": "http/1.1",
+      "remoteIPAddress": "23.22.130.173",
+      "remotePort": 443,
+      "securityDetails": {
+         "certificateId": 0,
+         "certificateTransparencyCompliance": "unknown",
+         "cipher": "AES_128_GCM",
+         "issuer": "DigiCert SHA2 High Assurance Server CA",
+         "keyExchange": "ECDHE_RSA",
+         "keyExchangeGroup": "P-256",
+         "protocol": "TLS 1.2",
+         "sanList": [ "*.herokuapp.com", "herokuapp.com" ],
+         "signedCertificateTimestampList": [  ],
+         "subjectName": "*.herokuapp.com",
+         "validFrom": 1592179200,
+         "validTo": 1625659200
+      },
+      "securityState": "secure",
+      "status": 200,
+      "statusText": "OK",
+      "timing": {
+         "connectEnd": -1,
+         "connectStart": -1,
+         "dnsEnd": -1,
+         "dnsStart": -1,
+         "proxyEnd": -1,
+         "proxyStart": -1,
+         "pushEnd": 0,
+         "pushStart": 0,
+         "receiveHeadersEnd": 39.907,
+         "requestTime": 384.492696,
+         "sendEnd": 29.971,
+         "sendStart": 29.859,
+         "sslEnd": -1,
+         "sslStart": -1,
+         "workerReady": -1,
+         "workerStart": -1
+      },
+      "url": "https://the-internet.herokuapp.com/js/foundation/foundation.alerts.js"
+   },
+   "timestamp": 384.582755,
+   "type": "Script"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 1392,
+   "encodedDataLength": 0,
+   "requestId": "348.8",
+   "timestamp": 384.58283
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 0,
+   "encodedDataLength": 12715,
+   "requestId": "348.7",
+   "timestamp": 384.583224
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.loadingFinished 730742EEC48EF5ABA5F130A88303BFEF {
+   "encodedDataLength": 13012,
+   "requestId": "348.7",
+   "shouldReportCorbBlocking": false,
+   "timestamp": 384.529439
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 65536,
+   "encodedDataLength": 353394,
+   "requestId": "348.3",
+   "timestamp": 384.583334
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 65536,
+   "encodedDataLength": 0,
+   "requestId": "348.3",
+   "timestamp": 384.58339
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=52) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.loadingFailed 730742EEC48EF5ABA5F130A88303BFEF {
+   "canceled": false,
+   "errorText": "net::ERR_NAME_NOT_RESOLVED",
+   "requestId": "348.11",
+   "timestamp": 384.583622,
+   "type": "XHR"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Log.entryAdded 730742EEC48EF5ABA5F130A88303BFEF {
+   "entry": {
+      "level": "error",
+      "networkRequestId": "348.11",
+      "source": "network",
+      "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+      "timestamp": 1.619489022929851e+12,
+      "url": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2F&u=oeu1619489022892r0.6893361300328602&wxhr=true&t=1619489022898&f=298349752,..."
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 0,
+   "encodedDataLength": 95957,
+   "requestId": "348.5",
+   "timestamp": 384.583748
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.loadingFinished 730742EEC48EF5ABA5F130A88303BFEF {
+   "encodedDataLength": 96254,
+   "requestId": "348.5",
+   "shouldReportCorbBlocking": false,
+   "timestamp": 384.545653
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=53) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 17408,
+   "encodedDataLength": 121664,
+   "requestId": "348.6",
+   "timestamp": 384.583803
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 0,
+   "encodedDataLength": 1392,
+   "requestId": "348.8",
+   "timestamp": 384.584005
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.loadingFinished 730742EEC48EF5ABA5F130A88303BFEF {
+   "encodedDataLength": 1688,
+   "requestId": "348.8",
+   "shouldReportCorbBlocking": false,
+   "timestamp": 384.533408
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 65536,
+   "encodedDataLength": 0,
+   "requestId": "348.3",
+   "timestamp": 384.584178
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 65536,
+   "encodedDataLength": 0,
+   "requestId": "348.3",
+   "timestamp": 384.584287
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=53) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.requestWillBeSentExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US",
+      "Connection": "keep-alive",
+      "Cookie": "rack.session=BAh7CUkiD3Nlc3Npb25faWQGOgZFVEkiRWQ0NGYzNDJjYzVhOTBjYTk5MGM1%0ANGQzMzc3NWZiNmUyNDMxNDJiZmM5MWRhMDc1M2U3MTE2NzBkOWViYjkwZTUG%0AOwBGSSIJY3NyZgY7AEZJIiUzNjI3ODhkNjQ1NzM5YjNiMWMzYTU3ZWYxMD...",
+      "Host": "the-internet.herokuapp.com",
+      "Referer": "https://the-internet.herokuapp.com/",
+      "Sec-Fetch-Dest": "image",
+      "Sec-Fetch-Mode": "no-cors",
+      "Sec-Fetch-Site": "same-origin",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"
+   },
+   "requestId": "348.9"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=54) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 25714,
+   "encodedDataLength": 0,
+   "requestId": "348.3",
+   "timestamp": 384.584419
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.loadingFinished 730742EEC48EF5ABA5F130A88303BFEF {
+   "encodedDataLength": 353678,
+   "requestId": "348.3",
+   "shouldReportCorbBlocking": false,
+   "timestamp": 384.553462
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=54) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 17408,
+   "encodedDataLength": 17408,
+   "requestId": "348.6",
+   "timestamp": 384.590401
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=55) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceivedExtraInfo 730742EEC48EF5ABA5F130A88303BFEF {
+   "blockedCookies": [  ],
+   "headers": {
+      "Connection": "keep-alive",
+      "Content-Length": "7660",
+      "Content-Type": "image/png",
+      "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+      "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+      "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+      "Via": "1.1 vegur",
+      "X-Content-Type-Options": "nosniff"
+   },
+   "headersText": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Type: image/png\r\nLast-Modified: Mon, 15 Feb 2021 17:29:38 GMT\r\nContent-Length: 7660\r\nX-Content-Type-Options: nosniff\r\nServer: WEBrick/1.6.0 (Ruby/2....",
+   "requestId": "348.9"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeInserted 730742EEC48EF5ABA5F130A88303BFEF {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 10,
+      "childNodeCount": 0,
+      "localName": "div",
+      "nodeId": 15,
+      "nodeName": "DIV",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 10,
+   "previousNodeId": 12
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.attributeModified 730742EEC48EF5ABA5F130A88303BFEF {
+   "name": "id",
+   "nodeId": 15,
+   "value": "sizzle1619489022939"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeRemoved 730742EEC48EF5ABA5F130A88303BFEF {
+   "nodeId": 15,
+   "parentNodeId": 10
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeInserted 730742EEC48EF5ABA5F130A88303BFEF {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 11,
+      "childNodeCount": 0,
+      "localName": "div",
+      "nodeId": 16,
+      "nodeName": "DIV",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 10,
+   "previousNodeId": 12
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 1,
+   "nodeId": 16
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 2,
+   "nodeId": 16
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeRemoved 730742EEC48EF5ABA5F130A88303BFEF {
+   "nodeId": 16,
+   "parentNodeId": 10
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 8,
+   "nodeId": 12
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=55) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 17408,
+   "encodedDataLength": 17408,
+   "requestId": "348.6",
+   "timestamp": 384.598157
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=56) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.responseReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+   "loaderId": "A4B40BF7FA286706BE66A0DE7F464FCC",
+   "requestId": "348.9",
+   "response": {
+      "connectionId": 33,
+      "connectionReused": true,
+      "encodedDataLength": 269,
+      "fromDiskCache": false,
+      "fromPrefetchCache": false,
+      "fromServiceWorker": false,
+      "headers": {
+         "Connection": "keep-alive",
+         "Content-Length": "7660",
+         "Content-Type": "image/png",
+         "Date": "Tue, 27 Apr 2021 02:03:42 GMT",
+         "Last-Modified": "Mon, 15 Feb 2021 17:29:38 GMT",
+         "Server": "WEBrick/1.6.0 (Ruby/2.7.2/2020-10-01)",
+         "Via": "1.1 vegur",
+         "X-Content-Type-Options": "nosniff"
+      },
+      "mimeType": "image/png",
+      "protocol": "http/1.1",
+      "remoteIPAddress": "23.22.130.173",
+      "remotePort": 443,
+      "securityDetails": {
+         "certificateId": 0,
+         "certificateTransparencyCompliance": "unknown",
+         "cipher": "AES_128_GCM",
+         "issuer": "DigiCert SHA2 High Assurance Server CA",
+         "keyExchange": "ECDHE_RSA",
+         "keyExchangeGroup": "P-256",
+         "protocol": "TLS 1.2",
+         "sanList": [ "*.herokuapp.com", "herokuapp.com" ],
+         "signedCertificateTimestampList": [  ],
+         "subjectName": "*.herokuapp.com",
+         "validFrom": 1592179200,
+         "validTo": 1625659200
+      },
+      "securityState": "secure",
+      "status": 200,
+      "statusText": "OK",
+      "timing": {
+         "connectEnd": -1,
+         "connectStart": -1,
+         "dnsEnd": -1,
+         "dnsStart": -1,
+         "proxyEnd": -1,
+         "proxyStart": -1,
+         "pushEnd": 0,
+         "pushStart": 0,
+         "receiveHeadersEnd": 11.108,
+         "requestTime": 384.584763,
+         "sendEnd": 0.221,
+         "sendStart": 0.142,
+         "sslEnd": -1,
+         "sslStart": -1,
+         "workerReady": -1,
+         "workerStart": -1
+      },
+      "url": "https://the-internet.herokuapp.com/img/forkme_right_green_007200.png"
+   },
+   "timestamp": 384.598322,
+   "type": "Image"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 7660,
+   "encodedDataLength": 0,
+   "requestId": "348.9",
+   "timestamp": 384.598398
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 0,
+   "encodedDataLength": 7660,
+   "requestId": "348.9",
+   "timestamp": 384.598654
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.loadingFinished 730742EEC48EF5ABA5F130A88303BFEF {
+   "encodedDataLength": 7929,
+   "requestId": "348.9",
+   "shouldReportCorbBlocking": false,
+   "timestamp": 384.596791
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 17408,
+   "encodedDataLength": 17408,
+   "requestId": "348.6",
+   "timestamp": 384.598823
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=56) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 17408,
+   "encodedDataLength": 17408,
+   "requestId": "348.6",
+   "timestamp": 384.60468
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=57) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=57) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 17408,
+   "encodedDataLength": 17408,
+   "requestId": "348.6",
+   "timestamp": 384.611206
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=58) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=58) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 17408,
+   "encodedDataLength": 17408,
+   "requestId": "348.6",
+   "timestamp": 384.617508
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=59) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=59) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 34816,
+   "encodedDataLength": 34816,
+   "requestId": "348.6",
+   "timestamp": 384.62378
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=60) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=60) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 17408,
+   "encodedDataLength": 17408,
+   "requestId": "348.6",
+   "timestamp": 384.630639
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=61) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=61) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 17408,
+   "encodedDataLength": 17408,
+   "requestId": "348.6",
+   "timestamp": 384.63624
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=62) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=62) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 34816,
+   "encodedDataLength": 34816,
+   "requestId": "348.6",
+   "timestamp": 384.642749
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=63) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=63) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 16565,
+   "encodedDataLength": 16565,
+   "requestId": "348.6",
+   "timestamp": 384.64872
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=64) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:42+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=64) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 34816,
+   "encodedDataLength": 34816,
+   "requestId": "348.6",
+   "timestamp": 384.654865
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=65) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=65) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 17408,
+   "encodedDataLength": 17408,
+   "requestId": "348.6",
+   "timestamp": 384.660873
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=66) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=66) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 34816,
+   "encodedDataLength": 34816,
+   "requestId": "348.6",
+   "timestamp": 384.667057
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=67) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=67) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 36431,
+   "encodedDataLength": 0,
+   "requestId": "348.6",
+   "timestamp": 384.673454
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=68) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=68) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: Network.dataReceived 730742EEC48EF5ABA5F130A88303BFEF {
+   "dataLength": 0,
+   "encodedDataLength": 36431,
+   "requestId": "348.6",
+   "timestamp": 384.675215
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: Network.loadingFinished 730742EEC48EF5ABA5F130A88303BFEF {
+   "encodedDataLength": 470894,
+   "requestId": "348.6",
+   "shouldReportCorbBlocking": false,
+   "timestamp": 384.67317
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=69) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeInserted 730742EEC48EF5ABA5F130A88303BFEF {
+   "node": {
+      "attributes": [ "style", "visibility: hidden; width: 0px; height: 0px; border: 0px; margin: 0px; background: none;" ],
+      "backendNodeId": 12,
+      "childNodeCount": 1,
+      "localName": "body",
+      "nodeId": 17,
+      "nodeName": "BODY",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 10,
+   "previousNodeId": 0
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 0,
+   "nodeId": 17
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeRemoved 730742EEC48EF5ABA5F130A88303BFEF {
+   "nodeId": 17,
+   "parentNodeId": 10
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 9,
+   "nodeId": 12
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 10,
+   "nodeId": 12
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 11,
+   "nodeId": 12
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 12,
+   "nodeId": 12
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 13,
+   "nodeId": 12
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 14,
+   "nodeId": 12
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 15,
+   "nodeId": 12
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeInserted 730742EEC48EF5ABA5F130A88303BFEF {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 13,
+      "childNodeCount": 0,
+      "localName": "body",
+      "nodeId": 18,
+      "nodeName": "BODY",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 10,
+   "previousNodeId": 12
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 1,
+   "nodeId": 18
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 2,
+   "nodeId": 18
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 3,
+   "nodeId": 18
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 4,
+   "nodeId": 18
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.childNodeCountUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+   "childNodeCount": 3,
+   "nodeId": 18
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: DOM.documentUpdated 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: DOM.getDocument (id=70) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: Page.domContentEventFired 730742EEC48EF5ABA5F130A88303BFEF {
+   "timestamp": 384.70853
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=69) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: Page.loadEventFired 730742EEC48EF5ABA5F130A88303BFEF {
+   "timestamp": 384.710578
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Event: Page.frameStoppedLoading 730742EEC48EF5ABA5F130A88303BFEF {
+   "frameId": "730742EEC48EF5ABA5F130A88303BFEF"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=71) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: DOM.getDocument (id=70) 730742EEC48EF5ABA5F130A88303BFEF {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://the-internet.herokuapp.com/",
+      "childNodeCount": 4,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 20,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 19,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "backendNodeId": 3,
+         "localName": "",
+         "nodeId": 21,
+         "nodeName": "#comment",
+         "nodeType": 8,
+         "nodeValue": "[if IE 8]>         \u003Chtml class=\"no-js lt-ie9\" lang=\"en\" > \u003C![endif]",
+         "parentId": 19
+      }, {
+         "backendNodeId": 4,
+         "localName": "",
+         "nodeId": 22,
+         "nodeName": "#comment",
+         "nodeType": 8,
+         "nodeValue": "[if gt IE 8]>\u003C!",
+         "parentId": 19
+      }, {
+         "attributes": [ "class", "no-js", "lang", "en" ],
+         "backendNodeId": 5,
+         "childNodeCount": 3,
+         "children": [ {
+            "backendNodeId": 6,
+            "localName": "",
+            "nodeId": 24,
+            "nodeName": "#comment",
+            "nodeType": 8,
+            "nodeValue": "\u003C![endif]",
+            "parentId": 23
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 7,
+            "childNodeCount": 15,
+            "localName": "head",
+            "nodeId": 25,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 23
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 13,
+            "childNodeCount": 3,
+            "localName": "body",
+            "nodeId": 26,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 23
+         } ],
+         "frameId": "730742EEC48EF5ABA5F130A88303BFEF",
+         "localName": "html",
+         "nodeId": 23,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 19
+      } ],
+      "documentURL": "https://the-internet.herokuapp.com/",
+      "localName": "",
+      "nodeId": 19,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=71) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE Navigate
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND GetUrl {
+
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=72) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=72) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=73) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=73) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "https://the-internet.herokuapp.com/"
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=74) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=74) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE GetUrl "https://the-internet.herokuapp.com/"
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND GetUrl {
+
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=75) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=75) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=76) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=76) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "https://the-internet.herokuapp.com/"
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=77) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=77) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE GetUrl "https://the-internet.herokuapp.com/"
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return typeof jQuery != 'undefined'"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=78) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=78) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=79) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=79) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=80) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=80) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript true
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return jQuery.active==0"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=81) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=81) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=82) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=82) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=83) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=83) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript true
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.angular === undefined"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=84) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=84) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=85) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=85) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=86) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=86) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript true
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=87) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=87) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=88) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=88) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "complete"
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=89) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=89) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript "complete"
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return typeof jQuery != 'undefined'"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=90) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=90) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=91) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=91) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=92) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=92) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript true
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return jQuery.active==0"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=93) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=93) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=94) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=94) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=95) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=95) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript true
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.angular === undefined"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=96) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=96) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=97) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=97) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=98) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=98) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript true
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=99) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=99) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=100) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=100) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "complete"
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=101) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=101) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript "complete"
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND FindElement {
+   "using": "tag name",
+   "value": "html"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=102) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=102) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=103) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=103) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": {
+            "ELEMENT": "0.5610622247599033-1"
+         }
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=104) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=104) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE FindElement {
+   "ELEMENT": "0.5610622247599033-1"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND FindElements {
+   "using": "tag name",
+   "value": "html"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=105) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=105) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=106) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=106) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [ {
+            "ELEMENT": "0.5610622247599033-1"
+         } ]
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=107) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=107) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE FindElements [ {
+   "ELEMENT": "0.5610622247599033-1"
+} ]
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND GetSource {
+
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=108) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=108) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=109) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=109) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=110) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=110) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE GetSource "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND GetSource {
+
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=111) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=111) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=112) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=112) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=113) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=113) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE GetSource "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND GetSource {
+
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=114) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=114) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=115) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=115) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=116) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=116) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE GetSource "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND GetSource {
+
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=117) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=117) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=118) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=118) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=119) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=119) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE GetSource "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND GetSource {
+
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=120) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=120) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=121) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=121) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=122) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=122) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE GetSource "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND GetSource {
+
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=123) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=123) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=124) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=124) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=125) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=125) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE GetSource "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND GetSource {
+
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=126) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=126) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=127) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=127) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=128) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=128) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE GetSource "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return typeof jQuery != 'undefined'"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=129) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=129) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=130) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=130) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=131) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=131) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript true
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return jQuery.active==0"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=132) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=132) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=133) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=133) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=134) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=134) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript true
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.angular === undefined"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=135) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=135) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=136) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=136) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=137) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=137) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript true
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=138) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=138) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=139) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=139) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "complete"
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=140) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=140) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript "complete"
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND FindElement {
+   "using": "tag name",
+   "value": "div"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=141) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=141) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=142) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=142) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": {
+            "ELEMENT": "0.5610622247599033-2"
+         }
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=143) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=143) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE FindElement {
+   "ELEMENT": "0.5610622247599033-2"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND FindElements {
+   "using": "tag name",
+   "value": "div"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=144) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=144) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=145) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=145) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [ {
+            "ELEMENT": "0.5610622247599033-2"
+         }, {
+            "ELEMENT": "0.5610622247599033-3"
+         }, {
+            "ELEMENT": "0.5610622247599033-4"
+         }, {
+            "ELEMENT": "0.5610622247599033-5"
+         }, {
+            "ELEMENT": "0.5610622247599033-6"
+         }, {
+            "ELEMENT": "0.5610622247599033-7"
+         }, {
+            "ELEMENT": "0.5610622247599033-8"
+         } ]
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=146) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=146) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE FindElements [ {
+   "ELEMENT": "0.5610622247599033-2"
+}, {
+   "ELEMENT": "0.5610622247599033-3"
+}, {
+   "ELEMENT": "0.5610622247599033-4"
+}, {
+   "ELEMENT": "0.5610622247599033-5"
+}, {
+   "ELEMENT": "0.5610622247599033-6"
+}, {
+   "ELEMENT": "0.5610622247599033-7"
+}, {
+   "ELEMENT": "0.5610622247599033-8"
+} ]
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return typeof jQuery != 'undefined'"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=147) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=147) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=148) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=148) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=149) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=149) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript true
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return jQuery.active==0"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=150) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=150) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=151) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=151) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=152) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=152) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript true
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.angular === undefined"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=153) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=153) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=154) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=154) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=155) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=155) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript true
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=156) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=156) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=157) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=157) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "complete"
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=158) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=158) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE ExecuteScript "complete"
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND FindElement {
+   "using": "tag name",
+   "value": "div"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=159) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=159) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=160) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=160) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": {
+            "ELEMENT": "0.5610622247599033-2"
+         }
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=161) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=161) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE FindElement {
+   "ELEMENT": "0.5610622247599033-2"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND FindElements {
+   "using": "tag name",
+   "value": "div"
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=162) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=162) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=163) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=163) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [ {
+            "ELEMENT": "0.5610622247599033-2"
+         }, {
+            "ELEMENT": "0.5610622247599033-3"
+         }, {
+            "ELEMENT": "0.5610622247599033-4"
+         }, {
+            "ELEMENT": "0.5610622247599033-5"
+         }, {
+            "ELEMENT": "0.5610622247599033-6"
+         }, {
+            "ELEMENT": "0.5610622247599033-7"
+         }, {
+            "ELEMENT": "0.5610622247599033-8"
+         } ]
+      }
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=164) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=164) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE FindElements [ {
+   "ELEMENT": "0.5610622247599033-2"
+}, {
+   "ELEMENT": "0.5610622247599033-3"
+}, {
+   "ELEMENT": "0.5610622247599033-4"
+}, {
+   "ELEMENT": "0.5610622247599033-5"
+}, {
+   "ELEMENT": "0.5610622247599033-6"
+}, {
+   "ELEMENT": "0.5610622247599033-7"
+}, {
+   "ELEMENT": "0.5610622247599033-8"
+} ]
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND Screenshot {
+
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=165) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=165) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools HTTP Request: http://localhost:36795/json/activate/730742EEC48EF5ABA5F130A88303BFEF
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools HTTP Response: Target activated
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Page.captureScreenshot (id=166) 730742EEC48EF5ABA5F130A88303BFEF {
+
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Page.captureScreenshot (id=166) 730742EEC48EF5ABA5F130A88303BFEF {
+   "data": "iVBORw0KGgoAAAANSUhEUgAAAyAAAAJYCAYAAACadoJwAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XdcU2f7P/BPwt4ERGVUGeKoVoSgaAUHo47HatuvYK0dttVQlaptbaHjafuzffpIq1YfrZVo7XBUoW6rteBe1RqlVKWoRJzIDHsESH5/hISMc0JIwIBe79frv..."
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Waiting for pending navigations...
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=167) 730742EEC48EF5ABA5F130A88303BFEF {
+   "expression": "1"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=167) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] Done waiting for pending navigations. Status: ok
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAAyAAAAJYCAYAAACadoJwAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XdcU2f7P/BPwt4ERGVUGeKoVoSgaAUHo47HatuvYK0dttVQlaptbaHjafuzffpIq1YfrZVo7XBUoW6rteBe1RqlVKWoRJzIDHsESH5/hISMc0JIwIBe79frv..."
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND GetLogTypes {
+
+}
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE GetLogTypes [ "performance", "browser", "driver" ]
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND GetLog {
+   "type": "performance"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=168) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "1",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=168) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE GetLog [ {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://the-internet.herokuapp.com/\",\"frameId\":\"730742EEC48EF5ABA5F130A88303BFEF\",\"hasUserGesture\":false,\"initiator\":{\"type...",
+   "timestamp": 1.619489022771e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"blockedCookies\":[],\"headers\":{\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,ap...",
+   "timestamp": 1.619489022812e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"headers\":{\"Connection\":\"keep-alive\",\"Content-Length\":\"4072\",\"Content-Type\":\"text/html;charset=utf-8\",\"Date\":\"...",
+   "timestamp": 1.619489022824e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"730742EEC48EF5ABA5F130A88303BFEF\",\"loaderId\":\"A4B40BF7FA286706BE66A0DE7F464FCC\",\"requestId\":\"A4B40BF7FA286706BE66A0DE7F464FCC\",\"...",
+   "timestamp": 1.619489022825e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"730742EEC48EF5ABA5F130A88303BFEF\"}},\"webview\":\"730742EEC48EF5ABA5F130A88303BFEF\"}",
+   "timestamp": 1.619489022831e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"id\":\"730742EEC48EF5ABA5F130A88303BFEF\",\"loaderId\":\"A4B40BF7FA286706BE66A0DE7F464FCC\",\"mimeType\":\"text/html\",\"securityOrigin\":\"https://...",
+   "timestamp": 1.619489022831e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4072,\"encodedDataLength\":0,\"requestId\":\"A4B40BF7FA286706BE66A0DE7F464FCC\",\"timestamp\":384.489506}},\"webview\":\"730742EEC48EF5ABA5F1...",
+   "timestamp": 1.619489022836e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":4908,\"requestId\":\"A4B40BF7FA286706BE66A0DE7F464FCC\",\"shouldReportCorbBlocking\":false,\"timestamp\":384.478399}},\"webview\":...",
+   "timestamp": 1.619489022836e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"blockedCookies\":[],\"headers\":{\"Accept\":\"*/*\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Accept-Language\":\"en-US\",\"Connection\":\"keep-...",
+   "timestamp": 1.619489022838e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://the-internet.herokuapp.com/\",\"frameId\":\"730742EEC48EF5ABA5F130A88303BFEF\",\"hasUserGesture\":false,\"initiator\":{\"line...",
+   "timestamp": 1.619489022839e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://the-internet.herokuapp.com/\",\"frameId\":\"730742EEC48EF5ABA5F130A88303BFEF\",\"hasUserGesture\":false,\"initiator\":{\"line...",
+   "timestamp": 1.619489022839e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://the-internet.herokuapp.com/\",\"frameId\":\"730742EEC48EF5ABA5F130A88303BFEF\",\"hasUserGesture\":false,\"initiator\":{\"line...",
+   "timestamp": 1.619489022839e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://the-internet.herokuapp.com/\",\"frameId\":\"730742EEC48EF5ABA5F130A88303BFEF\",\"hasUserGesture\":false,\"initiator\":{\"line...",
+   "timestamp": 1.61948902284e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://the-internet.herokuapp.com/\",\"frameId\":\"730742EEC48EF5ABA5F130A88303BFEF\",\"hasUserGesture\":false,\"initiator\":{\"line...",
+   "timestamp": 1.61948902284e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://the-internet.herokuapp.com/\",\"frameId\":\"730742EEC48EF5ABA5F130A88303BFEF\",\"hasUserGesture\":false,\"initiator\":{\"line...",
+   "timestamp": 1.61948902284e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://the-internet.herokuapp.com/\",\"frameId\":\"730742EEC48EF5ABA5F130A88303BFEF\",\"hasUserGesture\":false,\"initiator\":{\"line...",
+   "timestamp": 1.61948902284e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://the-internet.herokuapp.com/\",\"frameId\":\"730742EEC48EF5ABA5F130A88303BFEF\",\"hasUserGesture\":false,\"initiator\":{\"line...",
+   "timestamp": 1.61948902284e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"headers\":{\"Connection\":\"keep-alive\",\"Content-Length\":\"132435\",\"Content-Type\":\"application/javascript;charset=...",
+   "timestamp": 1.619489022848e+12
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"730742EEC48EF5ABA5F130A88303BFEF\",\"loaderId\":\"A4B40BF7FA286706BE66A0DE7F464FCC\",\"requestId\":\"348.2\",\"response\":{\"connectionId\":1...",
+   "timestamp": 1.619489022849e+12
+}, "..." ]
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND GetLog {
+   "type": "browser"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=169) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "1",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=169) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] RESPONSE GetLog [ {
+   "level": "SEVERE",
+   "message": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2F&u=oeu1619489022892r0.6893361300328602&wxhr=true&t=1619489022898&f=298349752,...",
+   "source": "network",
+   "timestamp": 1.61948902293e+12
+} ]
+
+[2021-04-27T02:03:43+0000] [INFO] [41352853e0a3b1d08afeb5db609ae4db] COMMAND GetLog {
+   "type": "driver"
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Command: Runtime.evaluate (id=170) 730742EEC48EF5ABA5F130A88303BFEF {
+   "awaitPromise": true,
+   "expression": "1",
+   "returnByValue": true
+}
+
+[2021-04-27T02:03:43+0000] [FINE] DevTools WebSocket Response: Runtime.evaluate (id=170) 730742EEC48EF5ABA5F130A88303BFEF {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+

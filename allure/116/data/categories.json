@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element Action [identifyUniqueElement] failed. With the following test data [zero elements found matching this locator \"By.name: q\".].",
+      "children" : [ {
+        "name" : "assertElementAttribute_true_containsComparison_expectedToFail",
+        "uid" : "26432e92207f8abd",
+        "parentUid" : "76718f2ffe07ff58d40e5ab12542406b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619489160051,
+          "stop" : 1619489185592,
+          "duration" : 25541
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "76718f2ffe07ff58d40e5ab12542406b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot invoke \"com.shaft.api.RequestBuilder$AuthenticationType.ordinal()\" because \"this.authenticationType\" is null",
+      "children" : [ {
+        "name" : "getPostsAndAssertBodyForSpecificTitle",
+        "uid" : "a517796a6f851482",
+        "parentUid" : "1e060515f2e32a00dcb5a59430344cab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619489291320,
+          "stop" : 1619489291445,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e060515f2e32a00dcb5a59430344cab"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
