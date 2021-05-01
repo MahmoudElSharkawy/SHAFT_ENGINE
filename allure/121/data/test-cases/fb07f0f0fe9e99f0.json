@@ -1,0 +1,288 @@
+{
+  "uid" : "fb07f0f0fe9e99f0",
+  "name" : "assertComparativeRelation_greaterThanOrEquals_false_equals_expectedToFail",
+  "fullName" : "unitTests.tests_validations_assertions.assertComparativeRelation_greaterThanOrEquals_false_equals_expectedToFail",
+  "historyId" : "a7ae2e4757a67e15ea26bc18a732a5d0",
+  "time" : {
+    "start" : 1619834907410,
+    "stop" : 1619834907414,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [248]: AssertComparativeRelation FAILED; Expected [1] and Actual [1]. Comparison Type [GREATER_THAN_OR_EQUALS]. Validation Type [NEGATIVE].",
+      "time" : {
+        "start" : 1619834907411,
+        "stop" : 1619834907411,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "248"
+      }, {
+        "name" : "logText",
+        "value" : "AssertComparativeRelation FAILED; Expected [1] and Actual [1]. Comparison Type [GREATER_THAN_OR_EQUALS]. Validation Type [NEGATIVE]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4e05f75fb0d2269b",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: assertComparativeRelation_greaterThanOrEquals_false_equals_expectedToFail",
+      "source" : "4e05f75fb0d2269b.txt",
+      "type" : "text/plain",
+      "size" : 664
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1619835067891,
+      "stop" : 1619835068611,
+      "duration" : 720
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [526]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1619835067892,
+        "stop" : 1619835067892,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "526"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [527]: Issue Summary: Total Issues = 3, New issues for Failed Tests = 1, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1619835067914,
+        "stop" : 1619835067914,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ca9f8d657ed79d67",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210501-021107",
+        "source" : "ca9f8d657ed79d67.csv",
+        "type" : "text/csv",
+        "size" : 370
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "527"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 3, New issues for Failed Tests = 1, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210501-021107, java.io.ByteArrayInputStream@49371497]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "849a634520bc270c",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210501-021107",
+      "source" : "849a634520bc270c.txt",
+      "type" : "text/plain",
+      "size" : 372849
+    }, {
+      "uid" : "20da0d608fc551c7",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "20da0d608fc551c7.html",
+      "type" : "text/html",
+      "size" : 7582640
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "unitTests.tests_validations_assertions"
+  }, {
+    "name" : "testClass",
+    "value" : "unitTests.tests_validations_assertions"
+  }, {
+    "name" : "testMethod",
+    "value" : "assertComparativeRelation_greaterThanOrEquals_false_equals_expectedToFail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT_Engine: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT_Engine: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "unitTests.tests_validations_assertions"
+  }, {
+    "name" : "host",
+    "value" : "fv-az122-877"
+  }, {
+    "name" : "thread",
+    "value" : "3866@fv-az122-877.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "677b1b9dc85960df",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/120//#testresult/677b1b9dc85960df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619748290127,
+          "stop" : 1619748290133,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "d3b65cb988a6ddb3",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/118//#testresult/d3b65cb988a6ddb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619661869832,
+          "stop" : 1619661869837,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "6c971324c815c2a",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/117//#testresult/6c971324c815c2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619575489970,
+          "stop" : 1619575489974,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "74e672d91cd54c89",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/116//#testresult/74e672d91cd54c89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619489137171,
+          "stop" : 1619489137173,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "870f8990209cfe8f",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/115//#testresult/870f8990209cfe8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619403190510,
+          "stop" : 1619403190514,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "53a6d3bf9c31074e",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/114//#testresult/53a6d3bf9c31074e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619316783692,
+          "stop" : 1619316783700,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "d2904f5bc03d23ef",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/113//#testresult/d2904f5bc03d23ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619278095636,
+          "stop" : 1619278095639,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "30f0f8c42b08d3ad",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/112//#testresult/30f0f8c42b08d3ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619230054989,
+          "stop" : 1619230054991,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "67f9118d170351ae",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/111//#testresult/67f9118d170351ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619143862582,
+          "stop" : 1619143862583,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "123507539ae0a7e8",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/108//#testresult/123507539ae0a7e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619101854439,
+          "stop" : 1619101854440,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e4ea3918b052f604",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/96//#testresult/e4ea3918b052f604",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618884528353,
+          "stop" : 1618884528358,
+          "duration" : 5
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fb07f0f0fe9e99f0.json",
+  "parameterValues" : [ ]
+}

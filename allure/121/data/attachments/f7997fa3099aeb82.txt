@@ -1,0 +1,12 @@
+
+################################################################################################################################################
+Starting Execution:	[62 out of 137] test cases in the current suite
+Test Method:		[testPackage01.Test_google.navigateToURLandVerifyGoogleLogoIsDisplayed]
+Test Description:	[TC001 - Navigate to URL and Verify Google Logo is Displayed]
+################################################################################################################################################
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @01-05-2021 02:08:20.0986 AM
+[ReportManager] Initial URL: [data:,] @01-05-2021 02:08:21.0048 AM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @01-05-2021 02:08:22.0092 AM
+[ReportManager] Loaded Shared OpenCV @01-05-2021 02:08:22.0308 AM
+[ReportManager] AssertElementExists PASSED; Expected [Element Should Exist, locator 'By.xpath: //img[@id='hplogo' or @alt='Google']'] and Actual [Element Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @01-05-2021 02:08:22.0388 AM
+[ReportManager] Successfully created attachment [Screenshot - 1619834902308_navigateToURLandVerifyGoogleLogoIsDisplayed_AssertElementExists_passed] @01-05-2021 02:08:22.0389 A
