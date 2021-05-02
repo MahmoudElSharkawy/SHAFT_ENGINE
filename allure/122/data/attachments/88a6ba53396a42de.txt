@@ -1,0 +1,17 @@
+
+################################################################################################################################################
+Starting Execution:	[2 out of 137] test cases in the current suite
+Test Method:		[testPackage01.Test_dynamicLoading.dynamicLoading_elementIsHidden]
+################################################################################################################################################
+[ReportManager] Target URL: [https://the-internet.herokuapp.com/dynamic_loading/1] @02-05-2021 02:10:41.0767 AM
+[ReportManager] Initial URL: [data:,] @02-05-2021 02:10:41.0850 AM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://the-internet.herokuapp.com/dynamic_loading/1]. @02-05-2021 02:10:43.0295 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Start]. @02-05-2021 02:10:43.0893 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [
+    Hello World!
+  ]. @02-05-2021 02:10:44.0081 AM
+[ReportManager] Loaded Shared OpenCV @02-05-2021 02:10:44.0275 AM
+[ReportManager] AssertElementAttribute PASSED; Expected [Value Should be 'Hello World!' for the 'text' attribute, element locator 'By.id: finish'] and Actual [
+    Hello World!
+  ]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @02-05-2021 02:10:44.0404 AM
+[ReportManager] Successfully created attachment [Screenshot - 1619921444275_dynamicLoading_elementIsHidden_AssertElementAttribute_passed] @02-05-2021 02:10:44.0409 A
