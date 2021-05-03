@@ -1,0 +1,306 @@
+{
+  "uid" : "5b3ea9b1a3af4843",
+  "name" : "doNotSkip",
+  "fullName" : "testPackage01.Test_SkipDueToIssue.doNotSkip",
+  "historyId" : "13bf298e1e204216e174902a46417745",
+  "time" : {
+    "start" : 1620007581648,
+    "stop" : 1620007581650,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [63]: This should not be skipped.",
+      "time" : {
+        "start" : 1620007581649,
+        "stop" : 1620007581649,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "63"
+      }, {
+        "name" : "logText",
+        "value" : "This should not be skipped."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2afb138cd8b517b3",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: doNotSkip",
+      "source" : "2afb138cd8b517b3.txt",
+      "type" : "text/plain",
+      "size" : 490
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1620007887503,
+      "stop" : 1620007888137,
+      "duration" : 634
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [526]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1620007887504,
+        "stop" : 1620007887504,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "526"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [527]: Issue Summary: Total Issues = 3, New issues for Failed Tests = 1, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1620007887515,
+        "stop" : 1620007887520,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f42d9f25bd49d6a5",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210503-021127",
+        "source" : "f42d9f25bd49d6a5.csv",
+        "type" : "text/csv",
+        "size" : 370
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "527"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 3, New issues for Failed Tests = 1, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210503-021127, java.io.ByteArrayInputStream@84bbe13]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "38dd2600775db216",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210503-021127",
+      "source" : "38dd2600775db216.txt",
+      "type" : "text/plain",
+      "size" : 372826
+    }, {
+      "uid" : "5eaf16da7f957db6",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "5eaf16da7f957db6.html",
+      "type" : "text/html",
+      "size" : 7442818
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_SkipDueToIssue"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_SkipDueToIssue"
+  }, {
+    "name" : "testMethod",
+    "value" : "doNotSkip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT_Engine: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT_Engine: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_SkipDueToIssue"
+  }, {
+    "name" : "host",
+    "value" : "fv-az92-687"
+  }, {
+    "name" : "thread",
+    "value" : "3834@fv-az92-687.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "999165afbbbaebf5",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/122//#testresult/999165afbbbaebf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619921468384,
+          "stop" : 1619921468385,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b8437a6a49461b94",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/121//#testresult/b8437a6a49461b94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619834765718,
+          "stop" : 1619834765720,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "640afa11a4db1449",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/120//#testresult/640afa11a4db1449",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619748143609,
+          "stop" : 1619748143615,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "a11a5291774c0ba3",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/118//#testresult/a11a5291774c0ba3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619661711441,
+          "stop" : 1619661711442,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "20e4303bc4cca912",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/117//#testresult/20e4303bc4cca912",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619575352732,
+          "stop" : 1619575352735,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "7f9d0f2034db09d5",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/116//#testresult/7f9d0f2034db09d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619489003879,
+          "stop" : 1619489003887,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "4856e8658945acf4",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/115//#testresult/4856e8658945acf4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619403017700,
+          "stop" : 1619403017702,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "c4aa09fa3186a806",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/114//#testresult/c4aa09fa3186a806",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619316640751,
+          "stop" : 1619316640752,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "51e97966d0ea48b0",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/113//#testresult/51e97966d0ea48b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619277950875,
+          "stop" : 1619277950878,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "a54c194793f1bf9e",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/112//#testresult/a54c194793f1bf9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619229914757,
+          "stop" : 1619229914758,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3a269c9c987d6b29",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/111//#testresult/3a269c9c987d6b29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619143670008,
+          "stop" : 1619143670017,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "fd3a42badc5af996",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/108//#testresult/fd3a42badc5af996",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619101686140,
+          "stop" : 1619101686146,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "bc261663e05623",
+        "reportUrl" : "https://MahmoudElSharkawy.github.io/SHAFT_ENGINE/allure/96//#testresult/bc261663e05623",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618884806308,
+          "stop" : 1618884806310,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5b3ea9b1a3af4843.json",
+  "parameterValues" : [ ]
+}

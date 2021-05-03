@@ -1,0 +1,23 @@
+
+################################################################################################################################################
+Starting Execution:	[5 out of 137] test cases in the current suite
+Test Method:		[testPackage01.Test_SelectedValue.simpleSelect]
+################################################################################################################################################
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @03-05-2021 02:06:11.0682 AM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @03-05-2021 02:06:11.0683 AM
+[ReportManager] Successfully Opened [GoogleChrome]. @03-05-2021 02:06:12.0000 AM
+[ReportManager] Target URL: [https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/select$samples/Basic_select?revision=1612304] @03-05-2021 02:06:12.0020 AM
+[ReportManager] Initial URL: [data:,] @03-05-2021 02:06:12.0092 AM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/select$samples/Basic_select?revision=1612304]. @03-05-2021 02:06:12.0417 AM
+[ReportManager] Element Action [select] successfully performed. With the following test data [Third Value]. @03-05-2021 02:06:12.0793 AM
+[ReportManager] Element Action [getSelectedText] successfully performed. With the following test data [Third Value]. @03-05-2021 02:06:12.0960 AM
+[ReportManager] Third Value @03-05-2021 02:06:12.0960 AM
+[ReportManager] Element Action [getSelectedText] successfully performed. With the following test data [Third Value]. @03-05-2021 02:06:13.0102 AM
+[ReportManager] Loaded Shared OpenCV @03-05-2021 02:06:13.0281 AM
+[ReportManager] AssertElementAttribute PASSED; Expected [Value Should be 'Third Value' for the 'selectedText' attribute, element locator 'By.tagName: select'] and Actual [Third Value]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @03-05-2021 02:06:13.0350 AM
+[ReportManager] Successfully created attachment [Screenshot - 1620007573281_simpleSelect_AssertElementAttribute_passed] @03-05-2021 02:06:13.0351 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - server] @03-05-2021 02:06:13.0405 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - performance] @03-05-2021 02:06:13.0417 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - driver] @03-05-2021 02:06:13.0518 AM
+[ReportManager] Browser Action [closeCurrentWindow] successfully performed. @03-05-2021 02:06:13.0578 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - closeCurrentWindow - Actual Value] @03-05-2021 02:06:13.0579 A
