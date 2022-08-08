@@ -175,8 +175,8 @@ public class RestActions {
                 List<String> jsonValueAsList = JsonPath.read(response.asPrettyString(), jsonPath);
                 searchPool = String.valueOf(jsonValueAsList.get(0));
             } else {
-                searchPool = JsonPath.read(response.asPrettyString(), jsonPath);
-            }
+                var jsonValue = JsonPath.read(response.asPrettyString(), jsonPath);
+                searchPool = String.valueOf(jsonValue);            }
         } catch (ClassCastException rootCauseException) {
             ReportManager.log(ERROR_INCORRECT_JSONPATH + "\"" + jsonPath + "\"");
             failAction(jsonPath, rootCauseException);
@@ -205,7 +205,8 @@ public class RestActions {
                     List<String> jsonValueAsList = JsonPath.read(responseObject.asPrettyString(), jsonPath);
                     searchPool = String.valueOf(jsonValueAsList.get(0));
                 } else {
-                    searchPool = JsonPath.read(responseObject.asPrettyString(), jsonPath);
+                    var jsonValue = JsonPath.read(responseObject.asPrettyString(), jsonPath);
+                    searchPool = String.valueOf(jsonValue);
                 }
             }
         } catch (ClassCastException rootCauseException) {
