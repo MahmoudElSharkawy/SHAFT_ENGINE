@@ -52,7 +52,7 @@ jobs:
         uses: EnricoMi/publish-unit-test-result-action@v2
         if: always()
         with:
-          name: Ubuntu_Firefox_Grid
+          check_name: Ubuntu_Firefox_Grid
           files: |
             target/surefire-reports/TEST-*.xml
 
@@ -99,7 +99,7 @@ jobs:
         uses: EnricoMi/publish-unit-test-result-action@v2
         if: always()
         with:
-          name: Ubuntu_Chrome_Grid
+          check_name: Ubuntu_Chrome_Grid
           files: |
             target/surefire-reports/TEST-*.xml
 
@@ -146,7 +146,7 @@ jobs:
         uses: EnricoMi/publish-unit-test-result-action@v2
         if: always()
         with:
-          name: Ubuntu_Edge_Grid
+          check_name: Ubuntu_Edge_Grid
           files: |
             target/surefire-reports/TEST-*.xml
   
@@ -189,7 +189,7 @@ jobs:
         uses: EnricoMi/publish-unit-test-result-action/composite@v2
         if: always()
         with:
-          name: Windows_Edge_Local
+          check_name: Windows_Edge_Local
           files: |
             target/surefire-reports/TEST-*.xml
 
@@ -232,7 +232,7 @@ jobs:
         uses: EnricoMi/publish-unit-test-result-action/composite@v2
         if: always()
         with:
-          name: Windows_Chrome_Local
+          check_name: Windows_Chrome_Local
           files: |
             target/surefire-reports/TEST-*.xml
 
@@ -275,7 +275,7 @@ jobs:
         uses: EnricoMi/publish-unit-test-result-action/composite@v2
         if: always()
         with:
-          name: MacOSX_Safari_Local
+          check_name: MacOSX_Safari_Local
           files: |
             target/surefire-reports/TEST-*.xml
 
@@ -320,7 +320,7 @@ jobs:
         uses: EnricoMi/publish-unit-test-result-action/composite@v2
         if: always()
         with:
-          name: MacOSX_Chrome_Local
+          : MacOSX_Chrome_Local
           files: |
             target/surefire-reports/TEST-*.xml
 
@@ -363,6 +363,6 @@ jobs:
         uses: EnricoMi/publish-unit-test-result-action/composite@v2
         if: always()
         with:
-          name: MacOSX_Safari_BrowserStack
+          check_name: MacOSX_Safari_BrowserStack
           files: |
             target/surefire-reports/TEST-*.xml
